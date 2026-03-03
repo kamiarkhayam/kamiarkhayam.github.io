@@ -2,7 +2,7 @@
 title: "Probabilistic Energy Transition Modeling Framework"
 collection: portfolio
 permalink: /project/energy-transition-uncertainty
-excerpt: "Large-scale Monte Carlo and neural surrogate framework for uncertainty-aware energy transition planning."
+excerpt: "Large-scale Hierarchical Monte Carlo and neural surrogate framework for uncertainty-aware energy transition planning."
 ---
 
 ## Overview
