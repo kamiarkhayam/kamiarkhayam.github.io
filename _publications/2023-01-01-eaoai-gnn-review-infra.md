@@ -8,8 +8,6 @@ venue: "Engineering Applications of Artificial Intelligence"
 paperurl: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5385353"
 citation: "Anand, H., Khayambashi, K., Zandsalimi, Z., Taghizadeh, M., Hasnat, M. A., & Alemazkoor, N. (2025). Applications of Graph Neural Networks in Civil Infrastructures: A Review on Transportation, Power, Water, and Structural Systems. Engineering Applications of Artificial Intelligence (Under Review)."
 ---
-Under review at *Engineering Applications of Artificial Intelligence*.
-
 This paper provides a systematic and structured review of Graph Neural Network (GNN) applications across foundational civil infrastructure domains, including transportation networks, power systems, water distribution systems, and structural systems.
 
 Unlike prior domain-specific surveys, this work unifies cross-sector GNN developments and categorizes recent research (2021–2024) by:
