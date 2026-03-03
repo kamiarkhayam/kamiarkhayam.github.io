@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-magnn-a2c-ress
 excerpt: "Topology-aware multi-agent reinforcement learning framework for scalable post-hurricane power distribution restoration."
 date: 2025-01-01
-venue: "Reliability Engineering & System Safety"
+venue: "Reliability Engineering & System Safety  (Under Review)"
 paperurl: "https://github.com/kamiarkhayam/ma-gnn-a2c-grid-restoration"
 citation: "Khayambashi, K., Hasnat, M. A., & Alemazkoor, N. (2025). GNN-based multi-agent reinforcement learning for power distribution recovery. Reliability Engineering & System Safety."
 ---
