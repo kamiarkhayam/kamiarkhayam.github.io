@@ -88,6 +88,13 @@ Environmental Futures Fellowship, University of Virginia
 
 ---
 
+## Selected Certifications
+
+Deep Learning Specialization – DeepLearning.AI  
+Generative AI with Large Language Models – DeepLearning.AI & AWS  
+Fundamentals of GIS – UC Davis
+
+---
 ## Full CV (PDF)
 
 [Download Full CV](/files/Kamiar_Khayambashi_3P_CV_Mar_26.pdf)
