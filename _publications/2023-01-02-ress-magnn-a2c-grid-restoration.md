@@ -9,8 +9,6 @@ venue: "Reliability Engineering & System Safety"
 paperurl: "https://github.com/kamiarkhayam/ma-gnn-a2c-grid-restoration"
 citation: "Khayambashi, K., Hasnat, M. A., & Alemazkoor, N. (2025). GNN-based multi-agent reinforcement learning for power distribution recovery. Reliability Engineering & System Safety."
 ---
-Under review in *Reliability Engineering & System Safety* (2025).
-
 This paper introduces **MAGNN-A2C**, a graph neural network–enhanced multi-agent reinforcement learning framework for post-hurricane power distribution system restoration. The approach models each repair crew as an autonomous agent operating under a centralized-training–decentralized-execution paradigm, enabling scalable and coordinated repair sequencing in large distribution networks.
 
 A graph convolutional encoder captures grid topology and component interdependencies, allowing agents to prioritize structurally critical repairs that accelerate network re-energization. The learning objective minimizes cumulative Value of Lost Load (VoLL), directly linking repair decisions to socioeconomic outage impacts.
