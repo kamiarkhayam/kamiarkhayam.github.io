@@ -19,7 +19,7 @@ Unlike prior domain-specific surveys, this work unifies cross-sector GNN develop
 - GNN architecture (GCN, GAT, GraphSAGE, spatio-temporal GNNs, graph transformers, physics-informed GNNs)  
 - Level of deployment maturity  
 
-The review synthesizes over 200 recent studies and evaluates how GNNs are used as:
+The review synthesizes over 500 recent studies and evaluates how GNNs are used as:
 
 - Predictive models for forecasting and classification  
 - Surrogate models for accelerating simulation and optimization  
