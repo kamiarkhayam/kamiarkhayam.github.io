@@ -8,8 +8,6 @@ venue: "Sustainability"
 paperurl: "https://www.mdpi.com/2071-1050/15/18/13314"
 citation: "Khorshidi, M., Goli, A., Orešković, M., Khayambashi, K., & Ameri, M. (2023). Performance evaluation of asphalt mixtures containing different proportions of alternative materials. Sustainability, 15(18), 13314."
 ---
-Published in *Sustainability* (2023).
-
 This study integrates experimental pavement engineering with machine learning–based predictive modeling to identify optimal compositions of reclaimed asphalt pavement (RAP), crumb rubber (CR), waste engine oil (WEO), and steel slag (SS) under balanced mix design constraints.
 
 A total of 44 mixture designs were experimentally evaluated across three performance metrics:
