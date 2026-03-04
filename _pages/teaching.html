@@ -1,19 +1,12 @@
 ---
+layout: archive
 title: "Teaching"
 permalink: /teaching/
-layout: page
 author_profile: true
 ---
 
-<h2>University of Virginia</h2>
-<p><strong>Graduate Teaching Assistant</strong></p>
-<p>Assisted faculty across undergraduate and capstone-level courses in engineering design, mechanics, and infrastructure resilience.</p>
+{% include base_path %}
 
-<h3>CE 4991 – Civil Engineering Design and Practice (Capstone Design)</h3>
-<p>Assisted Dr. Lindsay Ivey-Burden to support senior design teams in project scoping, technical analysis, and professional report development.</p>
-
-<h3>CE 2310 – Strength of Materials</h3>
-<p>Assisted Dr. Gomez with core mechanics instruction; supported problem-solving sessions and quantitative assignments.</p>
-
-<h3>CE 4600 – Adapting Civil Infrastructure Systems for Climate Change</h3>
-<p>Assisted Dr. Negin Alemazkoor with coursework focused on climate risk, infrastructure resilience, and uncertainty-aware planning.</p>
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
