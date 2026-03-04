@@ -96,5 +96,3 @@ Directly informs:
 ## Authors
 
 Kamiar Khayambashi, Harsh Anand, Somayeh Asadi, and Negin Alemazkoor  
-
-Supported by the University of Virginia Environmental Institute :contentReference[oaicite:1]{index=1}
