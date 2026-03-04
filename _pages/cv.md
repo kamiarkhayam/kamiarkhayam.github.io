@@ -51,19 +51,23 @@ Selected work includes:
 
 ## Selected Publications
 
-Khayambashi, K., et al. (2025).  
-*Identifying key uncertainties in energy transitions: A Puerto Rico case study.*  
-Nature Communications, 16(1), 9064.
+**Khayambashi, K.**, Clarens, A. F., Shobe, W. M., & Alemazkoor, N. (2025).  
+Identifying key uncertainties in energy transitions: A Puerto Rico case study.  
+*Nature Communications*, 16(1), 9064.
 
-Khayambashi, K., & Alemazkoor, N. (2024).  
-*Graph neural networks for precision-guaranteed compression of large-scale data.*  
-IEEE International Conference on Big Data.
+**Khayambashi, K.**, Hasnat, M. A., & Alemazkoor, N. (2024).  
+Hybrid chance-constrained optimal power flow under load and renewable generation uncertainty using enhanced multi-fidelity graph neural networks.  
+*Journal of Machine Learning for Modeling and Computing*, 5(4).
 
-Khayambashi, K., Hasnat, M. A., & Alemazkoor, N. (2025).  
-*GNN-based multi-agent reinforcement learning for power distribution recovery.*  
-Reliability Engineering & System Safety.
+Taghizadeh, M., **Khayambashi, K.**, Hasnat, M. A., & Alemazkoor, N. (2024).  
+Multi-fidelity graph neural networks for efficient power flow analysis.  
+*Electric Power Systems Research*, 237, 111014.
 
-Full list available on the Publications page.
+**Khayambashi, K.**, & Alemazkoor, N. (2024).  
+Graph neural networks for precision-guaranteed compression of large-scale data.  
+*Proceedings of the IEEE International Conference on Big Data.*
+
+Full publication list available on the Publications page.
 
 ---
 
