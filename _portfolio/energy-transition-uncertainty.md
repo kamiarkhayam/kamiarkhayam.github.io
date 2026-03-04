@@ -2,55 +2,89 @@
 title: "Probabilistic Energy Transition Modeling Framework"
 collection: portfolio
 permalink: /project/energy-transition-uncertainty
-excerpt: "Large-scale hierarchical Monte Carlo and neural surrogate framework for uncertainty-aware energy transition planning."
+excerpt: "Hierarchical Monte Carlo and neural surrogate framework for uncertainty-aware long-term energy transition planning under compound technological and climate risk."
 ---
 
-This project develops a scalable probabilistic modeling framework for evaluating long-term energy transition strategies under high-dimensional technological, economic, institutional, and climate uncertainty.
+## Overview
 
-The system integrates:
+Developed a scalable probabilistic modeling framework for evaluating long-term energy transition strategies under high-dimensional technological, economic, institutional, and climate uncertainty.
 
-• Deterministic capacity expansion modeling using TEMOA  
-• Hierarchical nested Monte Carlo simulation  
-• 5,000 epistemic realizations × 1,000 aleatoric realizations  
-• Hurricane damage and outage cost modeling  
-• Deep neural network surrogate modeling (>93% predictive accuracy)  
-• Sobol-based global sensitivity analysis  
-• Parallelized high-performance computation  
+The framework couples deterministic capacity expansion optimization with hierarchical nested Monte Carlo simulation and neural surrogate modeling to quantify full-system cost risk distributions and identify dominant uncertainty drivers.
 
-The probabilistic engine explicitly separates uncertainty layers:
+---
 
-• Epistemic uncertainties (fuel prices, technology CAPEX/O&M, demand growth, hurricane frequency/intensity change, organizational inefficiency)  
-• Aleatoric uncertainties (weather variability, hurricane occurrence, component damage, restoration time)  
-• Full cost propagation including operational cost, damage restoration cost, and outage economic impact  
+## Technical Architecture
 
-Case study configuration:
+- Deterministic capacity expansion modeling using TEMOA  
+- Hierarchical nested Monte Carlo structure  
+- 5,000 epistemic realizations × 1,000 aleatoric realizations  
+- Explicit separation of uncertainty layers  
+- Hurricane damage and outage economic impact modeling  
+- Deep neural network surrogate (>93% predictive accuracy)  
+- Sobol-based global sensitivity analysis  
+- Parallelized high-performance computation  
 
-• Region: Puerto Rico 2050 power system :contentReference[oaicite:0]{index=0}  
-• Transition scenarios: Business-as-usual (BAU), Fully Renewable (FR), Fully Decarbonized (FD)  
-• Time horizon: Multi-period capacity expansion to 2050  
-• 36 representative time slices per year for renewable variability  
+Uncertainty layers:
 
-Key technical contributions include:
+- **Epistemic uncertainties:** fuel prices, technology CAPEX/O&M, demand growth, hurricane frequency and intensity change, organizational inefficiency  
+- **Aleatoric uncertainties:** weather variability, hurricane occurrence, component damage, restoration time  
+- Full propagation of operational cost, restoration cost, and outage economic impact  
 
-• First large-scale integration of epistemic and aleatoric uncertainty in energy transition cost planning  
-• Explicit modeling of organizational inefficiency as a systemic uncertainty driver  
-• Surrogate-accelerated global sensitivity analysis in high-dimensional planning space  
-• Identification of dominant uncertainty sources rather than full-dimensional brute-force exploration  
+---
 
-Impact:
+## Key Capabilities
 
-• Demonstrated 38–41% probability that renewable/decarbonized pathways can be less costly than business-as-usual under uncertainty  
-• Identified hurricane frequency change as the dominant driver (>50%) of total cost variance  
-• Revealed organizational inefficiency as the second largest cost-uncertainty driver  
-• Reduced high-dimensional cost evaluation to a small set of dominant decision-relevant uncertainties  
-• Enabled computationally tractable sensitivity analysis across millions of simulated realizations  
+- Joint modeling of structural (epistemic) and stochastic (aleatoric) uncertainties  
+- Risk-distribution estimation rather than single-point cost comparison  
+- Surrogate-accelerated sensitivity analysis in high-dimensional planning space  
+- Identification of dominant variance drivers without brute-force exploration  
+- Design-once–analyze-many computational paradigm  
 
-The framework follows a design-once–analyze-many paradigm: deterministic optimization defines system architecture, while nested Monte Carlo and surrogate modeling quantify risk distributions and dominant uncertainty drivers.
+---
+
+## Case Study Configuration
+
+**Region:** Puerto Rico power system (planning horizon to 2050)  
+**Scenarios:** Business-as-usual (BAU), Fully Renewable (FR), Fully Decarbonized (FD)  
+**Time structure:** Multi-period capacity expansion with 36 representative time slices per year  
+**Objective:** Long-run total system cost under uncertainty  
+
+---
+
+## Empirical Impact
+
+- 38–41% probability that renewable or fully decarbonized pathways outperform business-as-usual in total cost under uncertainty  
+- Hurricane frequency change identified as dominant cost-variance driver (>50% of total variance)  
+- Organizational inefficiency identified as second-largest uncertainty contributor  
+- Reduced high-dimensional uncertainty space to a small set of decision-relevant drivers  
+- Enabled computationally tractable evaluation across millions of simulated realizations  
+
+Results demonstrate that long-term energy transition outcomes are driven more by structural uncertainty assumptions rather than deterministic optimization outputs alone.
+
+---
+
+## Engineering Deliverables
+
+- Integrated TEMOA–Monte Carlo probabilistic workflow  
+- Neural surrogate training and inference pipeline  
+- Global sensitivity analysis implementation  
+- Parallel computing framework for large-scale realization sampling  
+- Reproducibility scripts and scenario configuration modules  
+
+---
+
+## Relevance
+
+Positions uncertainty quantification as a core planning requirement for deep decarbonization pathways, particularly in climate-exposed island grids.
+
+Framework bridges capacity expansion modeling, climate risk analytics, and high-dimensional uncertainty decomposition to support robust long-term energy policy design.
+
+---
 
 ## Related Publication
 
 Khayambashi, K., Clarens, A. F., Shobe, W. M., & Alemazkoor, N. (2025).  
 Identifying key uncertainties in energy transitions: A Puerto Rico case study.  
-*Nature Communications*, 16(1), 9064.  
+*Nature Communications*, 16(1), 9064.
 
 [View Publication](/publication/2025-nature-uncertainty)
