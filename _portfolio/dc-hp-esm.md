@@ -2,53 +2,88 @@
 title: "Sector-Coupled Capacity Expansion Modeling: Data Centers and Heat Pump Electrification"
 collection: portfolio
 permalink: /project/data-centers-heat-pumps-affordability
-excerpt: "High-resolution capacity expansion modeling framework quantifying interactions between data center load growth, building electrification, and energy affordability."
+excerpt: "High-resolution capacity expansion framework quantifying interactions between data center load growth, residential electrification, and long-term energy affordability."
 ---
 
-This project develops a high-resolution sector-coupled capacity expansion framework to evaluate how rapid data center growth interacts with residential heat pump electrification and energy affordability in the PJM Dominion (PJMD) region.
+## Overview
 
-The system integrates:
+Developed a high-resolution sector-coupled capacity expansion modeling framework to evaluate how rapid data center growth interacts with residential heat pump electrification and energy affordability in the PJM Dominion (PJMD) region.
 
-• National-scale capacity expansion modeling using TEMOA  
-• Bottom-up sectoral load construction (residential, commercial, industrial, EVs, data centers)  
-• 52-week × 168-hour temporal structure for seasonal resolution  
-• Weather-indexed cooling and heating load modeling  
-• Data center PUE-based load decomposition (90% baseload, 10% cooling-sensitive) :contentReference[oaicite:0]{index=0}  
-• Shadow-price conversion from discounted dual variables to real $/MWh values  
-• Retail-territory scaling for bill and NPV accounting  
+The framework integrates long-term investment planning, bottom-up sectoral load construction, and retail-territory economic accounting to quantify cross-sector infrastructure and price effects.
 
-The modeling framework explicitly captures:
+---
 
-• Seasonal complementarity between summer-peaking data centers and winter-peaking heat pumps  
-• Fuel-switching dynamics between natural gas and electricity  
-• Transmission utilization effects under sectoral load shifts  
-• Distributional impacts across residential and commercial customers  
-• Public-program and private-participant net present value (NPV) perspectives  
+## Technical Architecture
 
-Case study configuration:
+- National-scale capacity expansion modeling using TEMOA  
+- Bottom-up load construction (residential, commercial, industrial, EVs, data centers)  
+- 52-week × 168-hour temporal resolution for seasonal fidelity  
+- Weather-indexed heating and cooling demand modeling  
+- Data center PUE-based load decomposition (≈90% baseload, ≈10% cooling-sensitive)  
+- Shadow-price extraction from discounted dual variables  
+- Conversion to real $/MWh marginal system costs  
+- Retail-territory scaling for bill and NPV accounting  
 
-• Region: Virginia PJM Dominion (PJMD)  
-• Data center trajectories: Low IDC, High IDC  
-• Heat pump adoption pathways: BAU (50%) vs High Adoption (90%)  
-• Horizon: 2025–2040  
+Model captures:
 
-Key technical contributions include:
+- Seasonal complementarity between summer-peaking data centers and winter-peaking heat pumps  
+- Fuel-switching dynamics between natural gas and electricity  
+- Transmission utilization under sectoral load shifts  
+- Distributional impacts across customer classes  
+- Public-program and private-participant NPV perspectives  
 
-• First capacity-expansion study quantifying system-level interaction between data center growth and building electrification  
-• Explicit modeling of seasonal load complementarity within long-term investment planning  
-• Bulk-system marginal cost extraction and real-price conversion methodology  
-• Retail-territory NPV framework linking system costs to customer bills  
+---
 
-Impact:
+## Key Capabilities
 
-• $200–350M reduction in residential energy expenditures by 2040 under high heat pump adoption (~7–12%) :contentReference[oaicite:1]{index=1}  
-• 57% reduction in building-sector natural gas consumption (~15 TWh shift to electricity) :contentReference[oaicite:2]{index=2}  
-• Only 2–3 GW incremental generation capacity required despite electrification :contentReference[oaicite:3]{index=3}  
-• Improved winter transmission utilization without increasing per-MWh system costs  
-• Program NPV up to $2.42B at moderate cost-share levels :contentReference[oaicite:4]{index=4}  
-• Demonstrates electrification as economically complementary to industrial load growth  
+- Integrated cross-sector long-term planning within a unified optimization model  
+- Explicit modeling of seasonal load complementarity  
+- Marginal system cost extraction linked to retail bill impacts  
+- Retail-territory NPV framework connecting bulk-system investments to customer outcomes  
+- Scenario-based infrastructure adequacy assessment under rapid industrial load growth  
 
-The framework follows a system-coupling paradigm: rather than modeling sectors independently, it quantifies cross-sector load interactions and infrastructure utilization effects within a unified long-term optimization model.
+---
+
+## Case Study Configuration
+
+**Region:** Virginia PJM Dominion (PJMD)  
+**Data center trajectories:** Low IDC vs High IDC  
+**Heat pump pathways:** BAU (50% adoption) vs High Adoption (90%)  
+**Horizon:** 2025–2040  
+
+---
+
+## Empirical Impact
+
+- $200–350M reduction in residential energy expenditures by 2040 under high heat pump adoption (≈7–12%)  
+- 57% reduction in building-sector natural gas consumption (~15 TWh electrification shift)  
+- Only 2–3 GW incremental generation required despite large-scale electrification  
+- Improved winter transmission utilization without increasing per-MWh system costs  
+- Program NPV up to $2.42B at moderate cost-share levels  
+- Demonstrates electrification as economically complementary to industrial load growth  
+
+Results show that coordinated sector coupling can improve infrastructure utilization and reduce consumer costs even under aggressive data center expansion.
+
+---
+
+## Engineering Deliverables
+
+- High-resolution TEMOA capacity expansion model for PJMD  
+- Bottom-up sectoral load construction pipeline  
+- Data center load parameterization modules  
+- Shadow-price extraction and real-price conversion scripts  
+- Retail-territory NPV and bill accounting framework  
+- Scenario configuration and reproducibility scripts  
+
+---
+
+## Relevance
+
+Positions sector coupling as a planning necessity in regions experiencing simultaneous electrification and hyperscale industrial load growth.
+
+Framework bridges capacity expansion modeling, distributional economics, and infrastructure utilization analysis to inform regulatory and policy decisions under rapid demand transformation.
+
+---
 
 ## Related Publication
 
