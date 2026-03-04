@@ -2,84 +2,96 @@
 title: "Statewide Prioritization of Stormwater Infrastructure for Climate-Resilient Inspection and Maintenance"
 collection: portfolio
 permalink: /project/mdot-stormwater-prioritization
-excerpt: "Development of a geospatial risk-based decision-support system for statewide inspection and maintenance prioritization of stormwater infrastructure under climate stressors."
+excerpt: "Geospatial risk-based decision-support system for statewide prioritization of stormwater infrastructure inspection and maintenance under climate stressors."
 ---
 
 ## Overview
 
 Developed a statewide geospatial decision-support framework for prioritizing inspection and maintenance of highway stormwater infrastructure during a research internship with the Maryland Department of Transportation – State Highway Administration (MDOT SHA).
 
-The project addressed a critical operational challenge: allocating limited inspection and maintenance resources across thousands of drainage assets under increasing climate-driven flood and erosion risks.
+The project addressed a major operational challenge faced by transportation agencies: allocating limited inspection and maintenance resources across thousands of drainage assets while accounting for increasing flood, erosion, and environmental risks associated with climate change.
+
+The resulting system integrates spatial analytics, infrastructure condition data, and environmental indicators to support proactive maintenance planning.
 
 ---
 
-## Technical Contributions
+## Technical Architecture
 
-### 1. Geospatial Data Integration and Processing
+The framework combines geospatial data integration with risk-based prioritization algorithms.
 
-Designed and implemented a comprehensive spatial asset database by integrating:
+### Geospatial Data Integration
 
-- GIS layers (hydrology, topography, soil, land use, floodplains)
-- Structural and geotechnical attributes
-- Environmental impairment and watershed data
-- Historical maintenance records
-- Climate and extreme rainfall indicators
+A comprehensive spatial infrastructure database was constructed by integrating multiple datasets, including:
 
-Performed spatial joins, proximity analysis, watershed delineation, and raster-based terrain evaluation using ArcGIS.
+- Hydrology, watershed, and floodplain GIS layers  
+- Topography and terrain characteristics  
+- Soil and land-use information  
+- Environmental impairment and watershed condition data  
+- Infrastructure attributes and historical maintenance records  
+- Climate and extreme rainfall indicators  
+
+Spatial analysis operations such as proximity analysis, watershed delineation, and terrain evaluation were performed using ArcGIS.
+
+### Risk Modeling and Prioritization
+
+A multi-criteria risk assessment framework was developed to evaluate inspection priorities across the stormwater network. Risk indicators incorporated:
+
+- Flood exposure potential  
+- Erosion susceptibility  
+- Environmental vulnerability  
+- Infrastructure condition attributes  
+- Downstream impact and system connectivity  
+
+Weighted scoring and prioritization algorithms were implemented in Python to compute asset-level risk indices and generate inspection priority rankings.
 
 ---
 
-### 2. Risk Modeling and Multi-Criteria Prioritization
+## Decision-Support Tools
 
-Developed a multi-criteria risk assessment framework incorporating:
-
-- Flood exposure indicators
-- Erosion susceptibility metrics
-- Environmental vulnerability factors
-- Infrastructure condition attributes
-- Downstream impact potential
-
-Implemented weighted multi-objective optimization and scoring algorithms in Python (VS Code environment) to compute asset-level inspection priority indices.
-
-Designed the framework to be modular and adaptable to future data updates or new risk indicators.
-
----
-
-### 3. Decision-Support Tool Development
-
-Built two operational tools:
+Two operational tools were developed to support agency decision-making:
 
 **Inspection Prioritization Tool**
-- Asset-level risk scoring
-- Automated ranking of thousands of drainage structures
-- Configurable weighting for policy-driven decision scenarios
+
+- Automated risk scoring for stormwater assets  
+- Ranking of infrastructure based on inspection priority  
+- Configurable weighting to reflect policy or operational preferences  
 
 **Maintenance Planning and Risk Mapping Tool**
-- Statewide vulnerability heat maps
-- Identification of regional “hot spots”
-- Visualization dashboards for resource allocation planning
 
-Tools support preventive maintenance strategies rather than reactive failure response.
+- Statewide vulnerability and risk heat maps  
+- Identification of high-risk geographic clusters  
+- Visualization tools for inspection planning and resource allocation  
+
+These tools support preventive maintenance strategies and enable agencies to shift from reactive repairs toward risk-informed infrastructure management.
 
 ---
 
-## Impact
+## Empirical Impact
 
-- Integrated multi-source spatial datasets into a unified statewide infrastructure database  
-- Developed scalable prioritization framework for thousands of stormwater assets  
-- Enabled data-driven inspection scheduling under climate stress  
-- Improved transparency and defensibility of maintenance allocation decisions  
-- Supported proactive risk mitigation for flooding, erosion, and environmental compliance  
+The framework enabled data-driven infrastructure prioritization across a large statewide asset inventory.
+
+Key outcomes include:
+
+- Integration of multiple geospatial datasets into a unified infrastructure database  
+- Scalable prioritization framework applicable to thousands of drainage assets  
+- Improved transparency and defensibility of inspection scheduling decisions  
+- Enhanced ability to identify climate-vulnerable infrastructure locations  
+- Support for proactive flood and erosion risk mitigation strategies  
+
+---
+
+## Engineering Deliverables
+
+- Statewide stormwater infrastructure geospatial database  
+- Multi-criteria risk assessment and prioritization algorithms  
+- Python-based scoring and ranking framework  
+- GIS-based visualization and risk mapping tools  
+- Decision-support workflows for inspection and maintenance planning  
 
 ---
 
 ## Relevance
 
-Directly applies:
+Transportation agencies increasingly face the challenge of maintaining aging drainage infrastructure under intensifying climate stressors. Data-driven prioritization tools can significantly improve how limited inspection and maintenance resources are allocated.
 
-- Spatial analytics and GIS-based risk modeling  
-- Multi-criteria optimization for infrastructure prioritization  
-- Climate-resilience planning for public agencies  
-- Tool development for operational decision support  
-
-Demonstrates translation of research-grade uncertainty and risk methodologies into real-world agency deployment.
+This project demonstrates how geospatial analytics and risk modeling can be translated into operational decision-support systems for public infrastructure management.
