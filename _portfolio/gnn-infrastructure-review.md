@@ -2,113 +2,108 @@
 title: "Applications of Graph Neural Networks in Civil Infrastructures"
 collection: portfolio
 permalink: /project/gnn-civil-infrastructure-review
-excerpt: "Comprehensive systematic review of Graph Neural Network methodologies across transportation, power, water, and structural infrastructure systems, identifying domain gaps and research frontiers."
+excerpt: "Systematic review of Graph Neural Network methodologies across transportation, power, water, and structural infrastructure systems, identifying research gaps and future directions."
 ---
 
 ## Overview
 
-Led the methodological synthesis and technical structuring of a comprehensive review of Graph Neural Network (GNN) applications across civil infrastructure domains, including transportation networks, power grids, water distribution systems, and structural systems.
+Led the methodological synthesis and technical structuring of a comprehensive review of Graph Neural Network (GNN) applications across civil infrastructure systems, including transportation networks, electric power grids, water distribution systems, and structural infrastructure.
 
-The objective was to move beyond fragmented, domain-specific reviews and provide a unified analytical framework that categorizes GNN architectures, application tasks, scalability limitations, and unresolved research gaps across infrastructure systems.
+The goal of the study was to move beyond fragmented, domain-specific surveys and develop a unified analytical framework that categorizes GNN architectures, application tasks, scalability challenges, and unresolved research gaps across infrastructure sectors.
 
 ---
 
-## Methodological Contribution
+## Methodological Framework
 
-Developed a structured review framework consisting of:
+A structured review methodology was developed to identify and analyze recent GNN applications in civil infrastructure research.
 
-- Systematic keyword search across Web of Science, Google Scholar, and ArXiv (2021–2024)
-- Two-stage screening for novelty and domain relevance
+Key steps included:
+
+- Systematic keyword searches across Web of Science, Google Scholar, and ArXiv
+- Two-stage screening for novelty, methodological contribution, and domain relevance
 - Cross-domain classification of GNN architectures
-- Task-based categorization (estimation, forecasting, optimization, anomaly detection, planning)
-- Gap analysis across scalability, interpretability, uncertainty quantification, and deployment readiness
+- Task-based categorization of infrastructure applications
+- Comparative analysis of scalability, interpretability, and deployment readiness
 
-Reviewed and synthesized 500+ recent publications across infrastructure sectors.
-
----
-
-## Technical Synthesis Framework
-
-### 1. Architecture-Level Categorization
-
-Systematically compared and contextualized:
-
-- Graph Convolutional Networks (GCN)
-- Graph Attention Networks (GAT)
-- GraphSAGE
-- Spatio-Temporal GNNs
-- Recurrent GNNs
-- Autoencoder-based GNNs
-- Dynamic GNNs
-- Graph Transformers
-- Physics-informed GNNs
-- Multi-fidelity and surrogate GNN models
-
-Provided mathematical formulations and unified notation to standardize cross-domain interpretation.
+The review synthesizes several hundred recent publications spanning multiple infrastructure domains.
 
 ---
 
-### 2. Application-Domain Mapping
+## Technical Synthesis
 
-Organized GNN applications into structured operational categories:
+### GNN Architecture Landscape
 
-**Transportation**
-- Traffic flow prediction
-- Congestion detection
-- Multi-agent signal control
-- Crash prediction
-- Maintenance planning
-- Network resilience
+The study provides a structured comparison of major graph learning architectures used in infrastructure applications, including:
+
+- Graph Convolutional Networks (GCN)  
+- Graph Attention Networks (GAT)  
+- GraphSAGE  
+- Spatio-temporal GNN models  
+- Recurrent and dynamic graph neural networks  
+- Autoencoder-based graph architectures  
+- Graph transformers and physics-informed GNN models  
+
+Mathematical formulations and unified notation were introduced to enable consistent comparison across application domains.
+
+### Infrastructure Application Domains
+
+Applications of GNNs were organized into key operational categories across infrastructure sectors.
+
+**Transportation Systems**
+
+- Traffic flow and congestion prediction  
+- Signal control and traffic management  
+- Crash prediction and safety analysis  
+- Infrastructure maintenance and resilience planning  
 
 **Power Systems**
-- Power flow and optimal power flow
-- Unit commitment
-- Renewable forecasting (solar, wind, hydro)
-- Load and price forecasting
-- State estimation
-- Cyber-attack detection
-- Cascading failure modeling
+
+- Power flow and optimal power flow analysis  
+- Renewable generation forecasting  
+- Load and electricity price prediction  
+- State estimation and grid monitoring  
+- Cascading failure and cyber-attack detection  
 
 **Water and Structural Systems**
-- Distribution network monitoring
-- Infrastructure degradation prediction
-- Structural health monitoring
-- Asset reliability modeling
+
+- Water distribution network monitoring  
+- Infrastructure degradation prediction  
+- Structural health monitoring  
+- Asset reliability assessment  
 
 ---
 
-### 3. Identified Cross-Domain Gaps
+## Key Research Gaps
 
-Synthesized critical unresolved challenges:
+The review identifies several cross-domain challenges limiting large-scale deployment of graph learning in infrastructure systems:
 
-- Scalability to large real-world graphs (thousands of nodes)
-- Real-time streaming adaptation
-- Physics-consistent constraint enforcement
-- Uncertainty-aware forecasting
-- Interpretability for operator-facing deployment
-- Multi-modal and multi-layer graph integration
-- Regulatory and ethical integration for public-sector adoption
+- Scalability to large real-world infrastructure networks  
+- Real-time adaptation to streaming operational data  
+- Integration of physical constraints into graph learning models  
+- Uncertainty-aware prediction and decision support  
+- Model interpretability for engineering practitioners  
+- Multi-layer and multi-modal infrastructure graph representations  
+
+These gaps highlight opportunities for future research at the intersection of civil infrastructure systems and graph-based machine learning.
 
 ---
 
-## Impact
+## Contribution
 
-- Synthesized 300+ recent GNN infrastructure studies into a unified analytical taxonomy  
-- Identified systematic scalability and deployment bottlenecks across transportation and power sectors  
-- Provided structured research roadmap for next-generation infrastructure AI systems  
-- Positioned GNN research within practical civil engineering decision-making contexts  
+This work provides one of the first cross-sector syntheses of graph neural network applications in civil infrastructure research. The resulting framework offers:
+
+- A unified taxonomy of GNN architectures used across infrastructure domains  
+- Structured comparison of application tasks and methodological approaches  
+- Identification of shared challenges across infrastructure sectors  
+- A research roadmap for scalable and deployable infrastructure AI systems  
 
 ---
 
 ## Relevance
 
-Establishes a cross-sector blueprint for embedding graph-based deep learning into critical infrastructure planning, operation, and resilience analysis.
+Graph neural networks are increasingly important for modeling complex infrastructure systems that exhibit network structure and spatial interdependencies. By synthesizing applications across multiple infrastructure sectors, this work helps establish a common foundation for future development of graph-based infrastructure analytics.
 
-Directly informs:
-
-- Temporal GNN development for distribution reliability
-- Multi-agent RL–GNN integration in infrastructure systems
-- Physics-informed and uncertainty-aware infrastructure AI
+The review also informs emerging research directions in temporal graph learning, physics-informed graph models, and reinforcement learning–graph neural network integration for infrastructure decision support.
 
 ---
 
