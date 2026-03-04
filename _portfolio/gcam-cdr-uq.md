@@ -2,115 +2,90 @@
 title: "GCAM–CDR Coupled Uncertainty Framework"
 collection: portfolio
 permalink: /project/gcam-cdr-power-uq
-excerpt: "Large-scale probabilistic integrated assessment modeling framework coupling carbon dioxide removal and power-sector evolution under deep uncertainty."
+excerpt: "Probabilistic integrated assessment modeling framework coupling carbon dioxide removal deployment with power-sector evolution under deep uncertainty."
 ---
 
 ## Overview
 
-Developed an integrated probabilistic planning framework that couples carbon dioxide removal (CDR) deployment with electricity sector evolution under deep technological, resource, and policy uncertainty.
+Developed a probabilistic planning framework that couples carbon dioxide removal (CDR) deployment with electricity-sector evolution under deep technological, resource, and policy uncertainty.
 
-The framework combines a state-level Integrated Assessment Model (GCAM-USA) with large-ensemble Monte Carlo simulation, neural surrogate acceleration, and variance-based Global Sensitivity Analysis to move beyond deterministic decarbonization forecasting.
-
-Full manuscript: :contentReference[oaicite:0]{index=0}
+The approach integrates the **GCAM-USA integrated assessment model** with large-scale Monte Carlo simulation, neural surrogate modeling, and variance-based sensitivity analysis. Rather than producing a single deterministic decarbonization pathway, the framework characterizes the full distribution of possible system outcomes and identifies the key drivers shaping long-term energy transitions.
 
 ---
 
 ## Technical Architecture
 
-- State-level Integrated Assessment Modeling using **GCAM-USA**
-- High-dimensional uncertainty space (>70 uncertain parameters)
-- Latin Hypercube Sampling for structured Monte Carlo input generation
-- Automated XML modification and parallel GCAM execution
-- Deep Neural Network surrogate models (entity embeddings + ReLU layers)
-- 5-fold cross-validation with early stopping
-- Sobol variance-based Global Sensitivity Analysis (SALib + Saltelli sampling)
+The framework integrates integrated assessment modeling with modern uncertainty quantification methods:
 
-**Simulation scale**
-- Thousands of full GCAM runs
-- 2020–2050 dynamic-recursive horizon
-- Multi-technology time-series outputs (generation + sequestration)
+- **GCAM-USA** state-level integrated assessment modeling  
+- Structured Monte Carlo sampling across a high-dimensional uncertainty space  
+- Automated scenario generation and batch model execution  
+- Neural network surrogate models for computational acceleration  
+- Variance-based **Sobol Global Sensitivity Analysis** to identify dominant drivers of system uncertainty  
 
-Average surrogate fidelity:
-- Mean R² ≈ 0.75  
-- Wind R² = 0.98  
-- Rock Weathering R² = 0.93  
+Neural surrogate models approximate GCAM outputs, enabling large-scale sensitivity analysis that would otherwise be computationally prohibitive with the full integrated assessment model.
 
 ---
 
 ## Key Capabilities
 
-- Explicit modeling of CDR–power sector feedbacks
-- Representation of technology emergence timing uncertainty
-- Resource competition modeling (biomass, land, storage)
-- Probabilistic portfolio evolution instead of single-path forecasts
-- Identification of dominant uncertainty drivers via Sobol indices
-- Dimensionality reduction from 70+ parameters to ~8 primary drivers
+- Explicit coupling of **CDR deployment pathways and electricity-sector evolution**  
+- Representation of uncertainty in technology costs, deployment timing, and resource availability  
+- Modeling of cross-sector resource competition (e.g., biomass, land, storage capacity)  
+- Probabilistic characterization of energy system futures rather than deterministic forecasts  
+- Identification of dominant uncertainty drivers through global sensitivity analysis  
+
+This approach reduces a large parameter space to a smaller set of decision-relevant uncertainties that shape system evolution.
 
 ---
 
 ## Case Study
 
-**Region:** Commonwealth of Virginia  
-**Model:** GCAM-USA (state resolution)  
-**Planning Horizon:** 2020–2050  
+The framework was applied to decarbonization planning for **Virginia’s energy system** using GCAM-USA.
 
-**CDR Technologies Modeled:**
-- DACCS (natural gas + electricity variants)
-- BECCS (multiple biomass pathways)
-- Enhanced Rock Weathering (ERW)
-- Biochar
-- Direct Ocean Removal (DOR)
+The analysis evaluates how different CDR technologies interact with the electricity sector under uncertainty. Technologies represented include direct air capture, bioenergy with carbon capture and storage (BECCS), enhanced rock weathering, and other emerging carbon removal approaches.
 
-**Electricity Portfolio Modeled:**
-- Solar (utility + rooftop)
-- Wind (onshore + offshore)
-- Nuclear
-- Natural Gas
-- Coal
-- Storage technologies
+Electricity system evolution is modeled simultaneously, capturing changes in renewable generation, thermal capacity, and storage deployment as CDR demand evolves.
 
 ---
 
 ## Empirical Findings
 
-- Mid-century sequestration uncertainty spans from minimal removal to multi-megaton deployment.
-- Electricity system size variance expands significantly under high-DACCS futures.
-- CDR technology emergence timing dominates system-level uncertainty.
-- Generator capital cost assumptions exert secondary influence once CDR demand uncertainty is incorporated.
-- Biomass availability and land constraints emerge as structural cross-sector bottlenecks.
-- System variance collapses to a small set of influential variables, enabling targeted uncertainty management.
+The analysis reveals that uncertainty in **CDR technology emergence and deployment timing** becomes a dominant driver of long-term electricity system evolution.
 
-Primary structural insight:
-> Power-sector uncertainty becomes demand-driven by CDR rollout timing rather than supply-driven by generation cost assumptions.
+Key insights include:
+
+- Mid-century carbon removal deployment varies widely across plausible futures.  
+- Electricity system expansion can increase substantially under high CDR demand scenarios.  
+- Resource constraints such as biomass availability and land use become cross-sector bottlenecks.  
+- Once CDR demand uncertainty is introduced, traditional drivers such as generator capital costs play a smaller role in determining system outcomes.
+
+Overall, the study shows that decarbonization planning must account for uncertainty in negative-emissions technologies because these uncertainties propagate directly into electricity system investment decisions.
 
 ---
 
 ## Engineering Deliverables
 
-- GCAM automation engine for batch scenario execution
-- Monte Carlo orchestration workflow (Python)
-- Surrogate modeling pipeline (PyTorch)
-- Sensitivity analysis toolkit (SALib integration)
-- Reproducible dataset and open-source repository:
-  https://github.com/kamiarkhayam/gcam-cdr-power-uq
+- Automated GCAM scenario generation and batch execution workflow  
+- Monte Carlo simulation framework for integrated assessment modeling  
+- Neural surrogate modeling pipeline for large-scale scenario exploration  
+- Global sensitivity analysis toolkit for identifying key uncertainty drivers  
+- Reproducible modeling workflow and open-source repository  
+
+https://github.com/kamiarkhayam/gcam-cdr-power-uq
 
 ---
 
 ## Relevance
 
-Demonstrates integration of:
+Energy transition planning increasingly depends on uncertain negative-emissions technologies. This framework provides a computationally tractable method for evaluating how those uncertainties reshape electricity system evolution.
 
-- Integrated Assessment Modeling  
-- Deep uncertainty quantification  
-- Machine learning surrogate acceleration  
-- Cross-sector infrastructure coupling  
-
-Framework generalizes to other states, national contexts, or sector-coupled decarbonization studies requiring computationally tractable probabilistic analysis.
+The approach bridges **integrated assessment modeling, machine learning acceleration, and uncertainty quantification**, enabling more robust decarbonization planning under deep uncertainty.
 
 ---
 
 ## Related Publication
 
 Khayambashi, K., Javadi, P., Fuhrman, J., Clarens, A. F., & Alemazkoor, N.  
-The Coupled Uncertainty of Carbon Removal and the Power Sector in Decarbonization Planning for Virginia.  
-In preparation / Under review.
+*The Coupled Uncertainty of Carbon Removal and the Power Sector in Decarbonization Planning for Virginia.*  
+In preparation.
