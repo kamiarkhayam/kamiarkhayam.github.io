@@ -16,17 +16,17 @@ The method replaces traditional transform-based compression with a learned spati
 ## Technical Architecture
 
 - Global one-step-ahead predictive model trained across all monitoring nodes  
-- Graph Convolutional Network (3 layers × 64 hidden dimensions) :contentReference[oaicite:0]{index=0}  
-- Sequence length: 4 timesteps for spatio-temporal context :contentReference[oaicite:1]{index=1}  
-- Delaunay triangulation–based graph construction (spatial datasets) :contentReference[oaicite:2]{index=2}  
-- k-Nearest Neighbor graph (pattern-similarity–based traffic dataset) :contentReference[oaicite:3]{index=3}  
-- Iterative threshold-controlled predictive discard algorithm (Algorithm 1) :contentReference[oaicite:4]{index=4}  
+- Graph Convolutional Network (3 layers × 64 hidden dimensions) :contentReference 
+- Sequence length: 4 timesteps for spatio-temporal context :contentReference
+- Delaunay triangulation–based graph construction (spatial datasets) :contentReference
+- k-Nearest Neighbor graph (pattern-similarity–based traffic dataset) :contentReference
+- Iterative threshold-controlled predictive discard algorithm (Algorithm 1) :contentReference
 - Explicit decompression error bound enforcement  
 
 Loss function: Mean Squared Error  
 Evaluation metrics: MAE, MSE, compression ratio, parameter count  
 
-GCN achieved highest accuracy with only ~4.7k parameters compared to millions for CNN/LSTM models :contentReference[oaicite:5]{index=5}.
+GCN achieved highest accuracy with only ~4.7k parameters compared to millions for CNN/LSTM models
 
 ---
 
@@ -35,16 +35,16 @@ GCN achieved highest accuracy with only ~4.7k parameters compared to millions fo
 - Direct control over maximum decompression error  
 - Real-time or post-collection compression applicability  
 - Low-parameter model footprint for storage-efficient deployment  
-- Reduced error accumulation via threshold-based reset logic :contentReference[oaicite:6]{index=6}  
-- Superior compression ratio compared to WT, DCT, PCA, and other DL models :contentReference[oaicite:7]{index=7}  
+- Reduced error accumulation via threshold-based reset logic
+- Superior compression ratio compared to WT, DCT, PCA, and other DL models
 
 ---
 
 ## Datasets Evaluated
 
-**1. NREL Solar PV Generation (U.S., 5,000+ plants, 5-min resolution)** :contentReference[oaicite:8]{index=8}  
-**2. Caltrans Traffic Speeds (700 sensors, 5-min resolution)** :contentReference[oaicite:9]{index=9}  
-**3. ComEd Energy Consumption (≈22,000 zip-code nodes, 30-min resolution)** :contentReference[oaicite:10]{index=10}  
+**1. NREL Solar PV Generation (U.S., 5,000+ plants, 5-min resolution)**
+**2. Caltrans Traffic Speeds (700 sensors, 5-min resolution)**
+**3. ComEd Energy Consumption (≈22,000 zip-code nodes, 30-min resolution)** 
 
 Each dataset spans 1–2 years and includes thousands of monitoring locations.
 
@@ -52,9 +52,9 @@ Each dataset spans 1–2 years and includes thousands of monitoring locations.
 
 ## Empirical Impact
 
-- Discarded up to 78% of datapoints at selected thresholds (traffic dataset example) :contentReference[oaicite:11]{index=11}  
-- Achieved compression ratios as low as 0.22 while maintaining bounded error :contentReference[oaicite:12]{index=12}  
-- Consistently outperformed wavelet transform (WT), discrete cosine transform (DCT), PCA, and deep learning baselines :contentReference[oaicite:13]{index=13}  
+- Discarded up to 78% of datapoints at selected thresholds (traffic dataset example)
+- Achieved compression ratios as low as 0.22 while maintaining bounded error
+- Consistently outperformed wavelet transform (WT), discrete cosine transform (DCT), PCA, and deep learning baselines
 - Demonstrated robustness across heterogeneous infrastructure domains  
 
 Results confirm that spatio-temporal graph modeling materially improves predictive compression efficiency compared to both classical and sequence-only deep learning approaches.
