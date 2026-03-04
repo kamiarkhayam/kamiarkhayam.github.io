@@ -2,102 +2,93 @@
 title: "MAGNN-A2C: Graph Neural Network–Based Multi-Agent Reinforcement Learning for Post-Hurricane Grid Restoration"
 collection: portfolio
 permalink: /project/magnn-a2c-hurricane-restoration
-excerpt: "Topology-aware multi-agent reinforcement learning framework for scalable, coordinated power distribution system restoration after hurricanes."
+excerpt: "Topology-aware multi-agent reinforcement learning framework for scalable power distribution system restoration after hurricanes."
 ---
 
 ## Overview
 
-Developed a scalable multi-agent reinforcement learning framework (MAGNN-A2C) for optimizing post-hurricane power distribution system restoration.
+Developed a reinforcement learning framework for optimizing post-hurricane power distribution system restoration.
 
-The framework models each repair crew as an autonomous agent and integrates Graph Neural Networks (GNNs) with Advantage Actor–Critic (A2C) learning under a centralized-training–decentralized-execution paradigm to learn coordinated, topology-aware repair policies.
+The approach treats repair crews as coordinated decision-making agents and uses graph neural networks to capture the topology of the power grid. The resulting system learns restoration strategies that prioritize repairs based on their system-wide impact on connectivity, load recovery, and outage costs.
+
+Rather than solving a single large optimization problem for each disaster scenario, the framework learns reusable restoration policies that can guide real-time repair sequencing.
 
 ---
 
 ## Technical Architecture
 
-- Multi-Agent Markov Decision Process (MAMDP) formulation  
-- Graph Convolutional Network (2 layers, 64 hidden dimensions) for topology-aware state encoding  
-- Decentralized actor networks (one per repair crew)  
-- Centralized critic with global graph pooling  
-- Centralized Training, Decentralized Execution (CTDE)  
-- Advantage Actor–Critic (A2C) optimization with Generalized Advantage Estimation (GAE)  
-- Stochastic hurricane hazard simulation (Holland wind model + decay modeling)  
-- Fragility-based component damage assessment (poles, substations, towers)  
-- Stochastic repair time sampling (lognormal, normal, truncated distributions)  
-- Value of Lost Load (VoLL)–weighted restoration objective  
+The framework integrates three main components:
 
-Environment scale:
+- **Multi-agent reinforcement learning (MARL)** to model parallel repair crews operating across the network  
+- **Graph neural networks (GNNs)** to encode grid topology and spatial dependencies between components  
+- **Advantage Actor–Critic (A2C)** learning with centralized training and decentralized execution  
 
-- Real-world distribution system: Galveston Island, Texas  
-- 16,037 nodes and 16,834 edges  
-- 15,679 wooden poles, 268 concrete poles, 81 transmission towers, 9 substations  
+A simulation environment models hurricane hazards, infrastructure damage, and restoration dynamics. Agents interact with this environment to learn coordinated repair policies that reduce outage impacts while respecting operational constraints.
+
+The reward function is based on **Value of Lost Load (VoLL)**, allowing the model to prioritize repairs that restore high-impact loads and critical infrastructure.
 
 ---
 
 ## Key Capabilities
 
-- Topology-aware repair prioritization using GNN message passing  
-- Explicit multi-crew coordination through MARL formulation  
-- Learning reusable restoration policies (train-once–deploy-many)  
-- Economic-impact–aware optimization via VoLL-weighted rewards  
-- Scalable restoration over large real-world distribution networks  
-- Robust generalization to unseen hurricane tracks and damage patterns  
+- Topology-aware repair prioritization through graph-based state representation  
+- Coordinated decision-making across multiple repair crews  
+- Adaptive restoration strategies that respond to evolving grid conditions  
+- Reusable policies enabling rapid post-disaster decision support  
+- Integration of economic outage impact into restoration planning  
 
 ---
 
-## Case Study Configuration
+## Case Study
 
-**Region:** Galveston Island, Texas  
-**Hazard modeling:** Synthetic Category 3 hurricane (track + intensity), fragility-based damage  
-**Evaluation horizon:** 720 hours (30 days)  
-**Comparison baselines:**  
-- Rule-based restoration heuristic  
-- Decentralized genetic algorithm (GA)  
+The framework was evaluated on the Galveston, Texas, power distribution system exposed to hurricane hazards.
 
-**Crew configurations tested:** 8, 10, and 12 repair crews  
+The simulation environment incorporates:
+
+- Hurricane wind-field modeling and infrastructure fragility assessment  
+- Probabilistic component damage and repair-time modeling  
+- Sequential restoration dynamics with multiple repair crews  
+- Sector-based electricity demand and outage impact valuation  
+
+This environment allows restoration strategies to be evaluated using resilience metrics such as service restoration trajectories, cumulative outage cost, and unserved energy.
 
 ---
 
 ## Empirical Impact
 
-- 18–23% reduction in cumulative outage cost relative to baselines  
-- $70–120M avoided socio-economic losses per major hurricane  
-- Aurc (area under recovery curve): 0.768 vs 0.637 (rule-based) and 0.454 (GA)  
-- Total unserved energy reduced to 116.9 GWh (vs 182.7 and 275 GWh)  
-- Time to restore 80% load reduced to 353.9 hours (vs 356.8 and 524.7 hours)  
-- Faster inference than rule-based heuristic (≈30–40 s vs 60–70 s per episode)  
+The learned restoration policy consistently outperforms conventional restoration approaches.
 
-Policy generalized successfully to:
+Key outcomes include:
 
-- Randomized damage realizations  
-- Perturbed storm tracks (±10 km, ±5° bearing)  
-- Weaker Category 2 storms  
+- Reduced cumulative outage costs during hurricane recovery scenarios  
+- Faster restoration of electricity service across affected communities  
+- Improved recovery trajectories and reduced unserved energy  
+- Robust performance across different crew sizes and storm scenarios  
 
-Results demonstrate that topology-aware multi-agent coordination materially improves recovery speed, outage impact, and resilience metrics without increasing operational decision time.
+The model also generalizes well to unseen damage patterns and alternative storm tracks, indicating that it learns structural restoration principles rather than scenario-specific repair sequences.
 
 ---
 
 ## Engineering Deliverables
 
-- High-fidelity restoration simulation environment  
-- Hurricane hazard generation and fragility-based damage pipeline  
-- Multi-agent RL training framework (PyTorch + PyTorch Geometric)  
-- GNN encoder with partitioned decentralized actors  
-- Baseline benchmarking suite (rule-based, GA, PPO variants, encoder ablations)  
-- Reproducible evaluation pipeline with resilience metric tracking  
+- High-fidelity post-disaster restoration simulation environment  
+- Multi-agent reinforcement learning training framework  
+- Graph neural network encoder for grid topology representation  
+- Benchmark comparison pipeline including heuristic and evolutionary methods  
+- Reproducible experimental workflow for restoration policy evaluation  
 
 ---
 
 ## Relevance
 
-Establishes a scalable, topology-aware decision-support framework for post-disaster grid restoration.
+Efficient restoration strategies are increasingly important as extreme weather events intensify and grid infrastructure faces growing reliability challenges.
 
-Bridges reinforcement learning, graph representation learning, infrastructure resilience modeling, and real-world-scale distribution system operations to support utilities facing increasingly severe hurricane risk.
+This project demonstrates how reinforcement learning and graph-based modeling can support scalable decision-making for infrastructure recovery, enabling utilities to deploy repair crews more effectively and accelerate community recovery after major disruptions.
 
 ---
 
 ## Related Publication
 
 Khayambashi, K., Hasnat, M. A., & Alemazkoor, N.  
-A Graph Neural Network-based Multi-agent Reinforcement Learning Model for Efficient Power Distribution System Recovery After Hurricanes.  
-*Reliability Engineering & System Safety (under review).*
+*A Graph Neural Network–based Multi-agent Reinforcement Learning Model for Efficient Power Distribution System Recovery After Hurricanes.*  
+Under review at **Reliability Engineering & System Safety**.
