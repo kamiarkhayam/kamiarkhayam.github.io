@@ -2,97 +2,84 @@
 title: "Long-Term Power Grid Planning Under Climate Change and Energy Transition"
 collection: portfolio
 permalink: /project/climate-change-grid-planning
-excerpt: "Comprehensive review and synthesis of climate change impacts on power systems, integrating demand growth, supply degradation, extreme events, uncertainty modeling, and adaptive renewable transition planning."
+excerpt: "Analytical review synthesizing climate change impacts on power systems, integrating demand growth, infrastructure degradation, extreme events, uncertainty modeling, and renewable transition planning."
 ---
 
 ## Overview
 
-Co-authored a comprehensive analytical review of long-term climate change impacts on electric power systems, synthesizing direct physical impacts, cascading infrastructure risks, renewable transition challenges, and deep uncertainty in expansion and resilience planning :contentReference[oaicite:0]{index=0}.
+Co-authored a comprehensive analytical review examining long-term climate change impacts on electric power systems. The study synthesizes evidence across climate science, power systems engineering, and energy transition research to understand how climate-driven risks reshape future electricity infrastructure planning.
 
-The study addresses a critical gap in existing literature: most research treats demand growth, generation degradation, extreme weather, and decarbonization planning in isolation. This work integrates these dimensions into a unified long-term planning perspective.
-
----
-
-## Core Contributions
-
-### 1. Integrated Impact Framework
-
-Developed a structured taxonomy of climate impacts on power systems:
-
-- Rising electricity demand under temperature and humidity shifts  
-- Thermoelectric generation efficiency losses (0.3–0.5% per °C increase)  
-- 6–19% projected mid-century thermoelectric capacity reductions in US and Europe  
-- Increased transmission losses (1.9–5.8% reduction in summertime capacity)  
-- Escalating extreme weather risks (hurricanes, wildfires, heatwaves, floods)  
-- Cascading interdependencies across telecom, water, gas, and transportation systems  
-
-Synthesized empirical evidence across multi-sector literature to quantify both direct and indirect impacts.
+Most existing studies analyze individual impacts—such as demand growth, generation degradation, extreme weather risk, or renewable integration—in isolation. This work integrates these dimensions into a unified perspective on long-term grid planning under climate change and deep uncertainty.
 
 ---
 
-### 2. Deep Uncertainty in Climate Projections
+## Analytical Framework
 
-Critically evaluated limitations of deterministic planning approaches and worst-case robust optimization frameworks.
+The study organizes climate-related risks into a structured framework connecting physical climate impacts, infrastructure performance, and long-term planning challenges.
 
-Highlighted:
+### Climate Impacts on Power System Infrastructure
 
-- 25–58% projected global demand amplification under vigorous warming  
-- Wide uncertainty bands in hurricane frequency projections (−50% to +50%)  
-- Large variance in expected outage risk under climate change  
-- Policy and technology uncertainty affecting renewable deployment  
+The review synthesizes empirical evidence on multiple pathways through which climate change affects electricity systems:
 
-Positioned climate change as a **deep uncertainty problem**, where probability distributions and model structures are themselves uncertain.
+- Rising electricity demand due to temperature and humidity increases  
+- Reduced efficiency of thermoelectric power plants under higher ambient temperatures  
+- Increased transmission losses and reduced line capacity during extreme heat  
+- Growing exposure to extreme events such as hurricanes, floods, wildfires, and heatwaves  
+- Cascading risks across interconnected infrastructure systems including telecommunications, water, transportation, and fuel supply networks  
+
+Together these mechanisms create compounding stresses on electricity infrastructure reliability and planning.
+
+### Deep Uncertainty in Climate and Energy Transitions
+
+The review highlights limitations of deterministic planning approaches in the presence of deep uncertainty. Climate projections, technology costs, policy trajectories, and infrastructure vulnerabilities all exhibit substantial uncertainty.
+
+Key sources of uncertainty include:
+
+- Future electricity demand under climate warming  
+- Frequency and intensity of extreme weather events  
+- Technology cost trajectories and deployment rates  
+- Policy and regulatory dynamics affecting decarbonization pathways  
+
+The study argues that long-term grid planning must explicitly address these uncertainties rather than relying on single-scenario forecasts.
+
+### Renewable Transition Under Climate Stress
+
+The review also examines how climate change interacts with renewable energy deployment.
+
+Renewable-dominated electricity systems face new challenges including:
+
+- Weather-driven variability and intermittency  
+- Increased exposure of distributed energy assets to extreme weather  
+- Operational challenges associated with high renewable penetration  
+- Policy, regulatory, and social acceptance constraints affecting deployment
+
+These factors highlight the need to incorporate resilience considerations into renewable transition strategies.
 
 ---
 
-### 3. Renewable Transition Under Climate Stress
+## Contribution
 
-Examined vulnerability of renewable-dominated grids:
+This work provides a cross-disciplinary synthesis connecting climate science, infrastructure resilience, and energy system planning.
 
-- Solar and wind sensitivity to extreme events  
-- Increased exposure of distributed assets to hurricanes and heatwaves  
-- Operational challenges from intermittency and storage limitations  
-- Policy instability and social acceptance constraints  
+Key contributions include:
 
-Identified the absence of resilience-aware renewable transition planning in existing literature.
-
----
-
-### 4. Methodological Roadmap for Future Planning
-
-Proposed research directions to enable uncertainty-aware planning:
-
-- Generalizable surrogate modeling for infrastructure risk analysis  
-- Dimensionality reduction methods for high-dimensional uncertainty spaces  
-- Adaptive, staged planning frameworks  
-- Integrated expansion–resilience–transition co-optimization  
-
-Advocated for interdisciplinary integration of engineering, policy, and social science modeling.
-
----
-
-## Impact
-
-- Synthesized 200+ references across climate science, power systems, resilience modeling, and energy transition  
-- Quantified cross-sector climate impacts with empirical evidence  
-- Reframed long-term grid planning as an adaptive deep-uncertainty problem  
-- Identified critical gap in resilience-aware renewable transition strategies  
-- Provided structured roadmap for uncertainty-informed power system planning  
+- Integration of climate impacts, infrastructure vulnerabilities, and energy transition dynamics within a unified analytical framework  
+- Identification of deep uncertainty as a central challenge in long-term grid planning  
+- Synthesis of evidence across climate science, energy systems, and resilience literature  
+- Development of a structured research agenda for uncertainty-aware power system planning  
 
 ---
 
 ## Relevance
 
-Directly informs:
+Long-term electricity infrastructure planning must increasingly account for climate-driven risks and uncertainty. By synthesizing insights across multiple research domains, this work provides a foundation for developing more adaptive and resilient energy system planning approaches.
 
-- Risk-informed grid resilience modeling  
-- Renewable integration under extreme climate risk  
-- Adaptive expansion planning frameworks  
-- Surrogate modeling for infrastructure under uncertainty  
-- Climate-aware capacity expansion and energy transition analysis  
+The study informs future research on climate-aware capacity expansion modeling, resilience-oriented grid design, and uncertainty-informed infrastructure planning.
 
 ---
 
-## Authors
+## Related Publication
 
-Kamiar Khayambashi, Harsh Anand, Somayeh Asadi, and Negin Alemazkoor  
+Khayambashi, K., Anand, H., Asadi, S., & Alemazkoor, N. (2024).  
+*Long-term power grid planning: Navigating climate change and energy transition challenges.*  
+In *Advancing the Resilience of the Power Grid under a Changing Climate*. IEEE & Wiley.
