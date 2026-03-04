@@ -2,151 +2,96 @@
 title: "Hybrid Chance-Constrained Optimal Power Flow Using Enhanced Multi-Fidelity Graph Neural Networks"
 collection: portfolio
 permalink: /project/hcc-opf-emf-gnn
-excerpt: "Scalable, surrogate-accelerated chance-constrained optimal power flow under high-dimensional load and renewable uncertainty with N-1 security."
+excerpt: "Surrogate-accelerated chance-constrained optimal power flow framework combining multi-fidelity graph neural networks with hybrid constraint validation under renewable and load uncertainty."
 ---
 
 ## Overview
 
-Developed a scalable hybrid chance-constrained optimal power flow (HCC-OPF) framework that integrates enhanced multi-fidelity graph neural networks (EMF-GNN) as surrogate AC power flow solvers under correlated load and renewable generation uncertainty.
+Developed a hybrid chance-constrained optimal power flow (HCC-OPF) framework that integrates enhanced multi-fidelity graph neural networks (EMF-GNN) as surrogate AC power flow solvers under uncertain electricity demand and renewable generation.
 
-The framework addresses two fundamental challenges in probabilistic OPF:
-1. Computational burden from repeated AC power flow evaluations.
-2. Constraint violation risk introduced by surrogate approximation errors.
+Probabilistic optimal power flow typically requires thousands of nonlinear AC simulations, which limits scalability for uncertainty-aware planning and operations. The proposed framework addresses this challenge by using graph-based surrogate models to approximate power flow results while selectively invoking the exact AC solver when constraints approach critical thresholds.
 
-A hybrid correction mechanism selectively activates the exact AC solver near critical constraint thresholds to ensure reliability.
-
-Full publication: Journal of Machine Learning for Modeling and Computing (2024).
+This hybrid design preserves computational efficiency while maintaining operational reliability.
 
 ---
 
 ## Technical Architecture
 
-### 1. Enhanced Multi-Fidelity GNN (EMF-GNN)
+The framework integrates multi-fidelity machine learning with reliability-aware optimization.
 
-- Low-fidelity block (TagConv) trained on DC power flow data.
-- High-fidelity block (k-GNN / GraphConv) trained on AC power flow data.
-- Residual learning architecture:
-  - HF network predicts voltage magnitude and phase residuals.
-- Embedding transfer from LF to intermediate HF layers.
-- Mean Squared Error loss on voltage magnitude and phase angle.
-- Trained using PyTorch + PyTorch Geometric (RTX 4090 GPU).
+### Multi-Fidelity Graph Neural Network Surrogate
 
-Training design:
-- LF dataset size = 2× HF dataset.
-- 6000 high-fidelity samples identified as elbow point.
-- 40% more HF data provided to single-fidelity baseline for fair comparison.
+- Low-fidelity graph model trained on DC power flow simulations  
+- High-fidelity graph model trained on AC power flow results  
+- Residual learning architecture that corrects low-fidelity predictions  
+- Graph message passing that captures electrical interactions across network topology  
 
----
+This multi-fidelity structure improves both prediction accuracy and data efficiency compared to single-fidelity neural surrogates.
 
-## Case Studies
+### Hybrid Constraint Validation
 
-Tested on IEEE benchmark systems:
+To ensure safe optimization results, a hybrid correction mechanism monitors surrogate predictions during optimization.
 
-- 9-bus
-- 14-bus
-- 30-bus
-- 118-bus
-
-Uncertainty modeling:
-- Load: 60%–140% of baseline
-- Renewable generation: 5%–15% of total generation
-- Correlated multivariate Gaussian sampling
-- 200 Monte Carlo trials per case
-- N-1 generator and line contingencies
+When predicted operating points approach constraint boundaries, the exact AC solver is invoked to validate and correct the solution. This strategy prevents surrogate approximation errors from causing operational violations while preserving most computational gains.
 
 ---
 
-## Key Empirical Results
+## Key Capabilities
 
-### Surrogate Accuracy (Power Flow Estimation)
-
-Compared to single-fidelity GNN:
-
-- Case 14 voltage magnitude MSE reduced from 1.45E-06 to 6.78E-07.
-- Case 118 voltage magnitude MSE reduced from 1.03E-02 to 1.78E-03.
-- Phase angle errors consistently reduced across all cases.
-
-Multi-fidelity architecture improves both:
-- Estimation accuracy
-- Training data efficiency
+- Scalable chance-constrained optimal power flow under uncertainty  
+- Surrogate-accelerated AC power flow evaluation using graph neural networks  
+- Multi-fidelity learning that reduces high-fidelity training data requirements  
+- Hybrid validation mechanism that preserves constraint reliability  
+- Robust performance under topology changes and contingency scenarios  
 
 ---
 
-### OPF Performance Under Uncertainty
+## Experimental Evaluation
 
-Using EMF-GNN within HCC-OPF:
+The framework was evaluated on several IEEE benchmark transmission systems under uncertainty in electricity demand and renewable generation.
 
-**Objective Function Relative Error**
-- Case 30 reduced from 0.44 (SF-GNN) to 0.17.
-- Case 118 reduced from 0.10 to 0.08.
-
-**Distribution Similarity (Jensen–Shannon Divergence)**
-- Case 118 reduced from 0.03 to 0.02.
-- Case 14 reduced from 0.16 to 0.14.
-
-Surrogate-based OPF achieves near-identical cost distributions compared to exact AC solver across 200 trials.
+Test scenarios included correlated stochastic sampling of loads and renewable output as well as N-1 contingency conditions. Performance was compared against traditional AC-based optimization and single-fidelity machine learning surrogates.
 
 ---
 
-### Hybrid Correction Impact (Case 118)
+## Empirical Impact
 
-Compared to fully surrogate-based CC-OPF:
+Results demonstrate significant improvements in both computational efficiency and solution reliability.
 
-| Metric | Surrogate-Only | Hybrid (Proposed) |
-|--------|----------------|------------------|
-| Constraint violation probability | 0.23 | 0.06 |
-| Objective MRE | 0.11 | 0.03 |
-| JSD | 0.08 | 0.02 |
-| Iteration time (s) | 33.02 | 96.37 |
-| Total optimization time (s) | 1554.21 | 1635.21 |
+Key outcomes include:
 
-Constraint violation probability reduced by ~74%  
-Objective error reduced by ~73%  
-Total optimization time increased by only ~5%
+- Improved surrogate accuracy compared with single-fidelity graph models  
+- Near-identical optimal cost distributions relative to exact AC-based solutions  
+- Substantial reduction in constraint violation probability through hybrid validation  
+- Robust performance under topology perturbations and contingency scenarios  
+- Minimal increase in optimization time compared to purely surrogate-based methods
 
-Hybrid mechanism improves reliability without sacrificing scalability.
+These results show that hybrid surrogate optimization can enable scalable probabilistic OPF without compromising operational constraints.
 
 ---
 
-### N-1 Security Performance
+## Engineering Deliverables
 
-Under random generator and line outages:
+- Enhanced multi-fidelity GNN architecture for AC power flow approximation  
+- Hybrid chance-constrained OPF optimization framework  
+- Surrogate training and evaluation pipeline using PyTorch Geometric  
+- Monte Carlo simulation workflow for uncertainty-driven OPF analysis  
+- Reproducible implementation and open-source repository  
 
-- Case 30 objective MRE reduced from 0.27 to 0.18.
-- Case 118 objective MRE reduced from 0.103 to 0.097.
-- Error levels remain stable despite topology perturbations.
-
-Demonstrates robustness of topology-aware GNN under contingency shifts.
-
----
-
-## Engineering Contributions
-
-- Residual multi-fidelity GNN architecture for AC power flow.
-- Surrogate-accelerated chance-constrained OPF.
-- Hybrid constraint validation mechanism.
-- Scalable performance across 9–118 bus systems.
-- Monte Carlo + PSO optimization under correlated uncertainty.
-- Open-source implementation:
-  https://github.com/kamiarkhayam/HCCOPF-using-EMFGNN
+https://github.com/kamiarkhayam/HCCOPF-using-EMFGNN
 
 ---
 
 ## Relevance
 
-Bridges:
+Modern power systems face increasing uncertainty due to renewable generation variability and growing electrification demand. Operational planning tools must therefore evaluate large numbers of stochastic scenarios while maintaining strict reliability constraints.
 
-- Probabilistic power system optimization  
-- Graph-based deep learning  
-- Multi-fidelity surrogate modeling  
-- Reliability-aware hybrid optimization  
-
-Enables real-time or near real-time OPF under renewable uncertainty while preserving operational constraint integrity.
+This framework demonstrates how graph-based surrogate modeling and hybrid optimization can support scalable probabilistic OPF, enabling faster and more reliable decision-making for future power systems.
 
 ---
 
 ## Publication
 
 Khayambashi, K., Hasnat, M. A., & Alemazkoor, N.  
-Hybrid Chance-Constrained Optimal Power Flow Under Load and Renewable Generation Uncertainty Using Enhanced Multi-Fidelity Graph Neural Networks.  
+*Hybrid Chance-Constrained Optimal Power Flow Under Load and Renewable Generation Uncertainty Using Enhanced Multi-Fidelity Graph Neural Networks.*  
 Journal of Machine Learning for Modeling and Computing, 5(4):53–76 (2024).
