@@ -2,12 +2,13 @@
 title: "Long-Term Power Grid Planning: Navigating Climate Change and Energy Transition Challenges"
 collection: publications
 category: book_chapters
+status: in_press
 permalink: /publication/2024-wiley-grid-planning
 excerpt: "Integrated review of climate uncertainty, resilience, and renewable transition challenges in long-term power grid planning."
-date: 2024-01-01
+date: 2026-01-01
 venue: "Advancing the Resilience of the Power Grid under a Changing Climate (IEEE & Wiley)"
 ---
-Book Chapter in *Advancing the Resilience of the Power Grid under a Changing Climate* (IEEE & Wiley, 2024).
+Book chapter in press in *Advancing the Resilience of the Power Grid under a Changing Climate* (IEEE & Wiley).
 
 This chapter presents a comprehensive synthesis of the long-term impacts of climate change on electric power systems, integrating demand growth, supply degradation, extreme weather risk, renewable integration, policy uncertainty, and interdependent infrastructure dynamics into a unified planning perspective.
 
@@ -20,6 +21,6 @@ Key contributions include:
 - Identification of deep uncertainties in extreme event projections and renewable performance  
 - Framework-level recommendations for adaptive long-term grid planning  
 
-This work received the **U.S. Department of Energy (DOE) Synthesis Award ($10,000)** in recognition of its contribution to advancing interdisciplinary climate-resilient power grid planning.
+The related synthesis research received the **U.S. Department of Energy American-Made Science Synthesis Prize** in 2025; the winning team was awarded **$10,000**.
 
 **Themes:** Climate uncertainty, long-term energy planning, resilience, renewable integration, adaptive planning, interdependent infrastructure

@@ -111,4 +111,4 @@ The review also informs emerging research directions in temporal graph learning,
 
 Harsh Anand, Kamiar Khayambashi, Zanko Zandsalimi, Mehdi Taghizadeh, Md Abul Hasnat, and Negin Alemazkoor  
 
-Preprint — Under Review
+SSRN preprint. DOI: [10.2139/ssrn.5385353](https://doi.org/10.2139/ssrn.5385353).

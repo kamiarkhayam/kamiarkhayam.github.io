@@ -1,13 +1,13 @@
 ---
-title: "GNN-based Multi-Agent Reinforcement Learning for Power Distribution Recovery"
+title: "A graph neural network-based multi-agent reinforcement learning model for efficient power distribution system recovery after hurricanes"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-magnn-a2c-ress
 excerpt: "Topology-aware multi-agent reinforcement learning framework for scalable post-hurricane power distribution restoration."
-date: 2025-01-01
-venue: "Reliability Engineering & System Safety  (Under Review)"
-paperurl: "https://github.com/kamiarkhayam/ma-gnn-a2c-grid-restoration"
-citation: "Khayambashi, K., Hasnat, M. A., & Alemazkoor, N. (2025). GNN-based multi-agent reinforcement learning for power distribution recovery. Reliability Engineering & System Safety."
+date: 2026-01-01
+venue: "Reliability Engineering & System Safety"
+paperurl: "https://doi.org/10.1016/j.ress.2026.112913"
+citation: "Khayambashi, K., Hasnat, M. A., & Alemazkoor, N. (2026). A graph neural network-based multi-agent reinforcement learning model for efficient power distribution system recovery after hurricanes. Reliability Engineering & System Safety, 276, 112913."
 ---
 This paper introduces **MAGNN-A2C**, a graph neural network–enhanced multi-agent reinforcement learning framework for post-hurricane power distribution system restoration. The approach models each repair crew as an autonomous agent operating under a centralized-training–decentralized-execution paradigm, enabling scalable and coordinated repair sequencing in large distribution networks.
 

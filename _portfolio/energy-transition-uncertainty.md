@@ -87,7 +87,7 @@ This framework integrates capacity expansion modeling, climate risk analysis, an
 ## Related Publication
 
 Khayambashi, K., Clarens, A. F., Shobe, W. M., & Alemazkoor, N. (2025).  
-*Identifying key uncertainties in energy transitions: A Puerto Rico case study.*  
+*Identifying key uncertainties in energy transitions with a Puerto Rico case study.*  
 Nature Communications, 16(1), 9064.
 
 [View Publication](/publication/2025-nature-uncertainty)

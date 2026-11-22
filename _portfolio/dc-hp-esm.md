@@ -91,6 +91,6 @@ This project demonstrates how sector-coupled modeling can identify synergies bet
 
 Khayambashi, K., Kaufman, M., DeCarolis, J., Shobe, W., Wade, C., McCollum, D., Alemazkoor, N., & Clarens, A. F.  
 *Interactions Between Data Center Load Growth, Residential Heat Pump Adoption, and Energy Affordability.*  
-Under review at **Joule**.
+Under review at **Energy and Climate Change**.
 
 [Code Repository](https://github.com/kamiarkhayam/Data-Centers-HP-Affordability)

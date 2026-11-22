@@ -6,7 +6,7 @@ author_profile: true
 
 ## Kamiar Khayambashi
 
-Ph.D. Candidate in Engineering  
+Ph.D. Candidate in Civil and Environmental Engineering  
 University of Virginia  
 
 Charlottesville, VA  
@@ -18,25 +18,28 @@ Email: bmb2tn@virginia.edu
 
 ## Education
 
-**Ph.D., Engineering** — University of Virginia (Expected 2026)  
+**Ph.D., Civil and Environmental Engineering** — University of Virginia (June 2022–May 2027 anticipated)  
 Advisor: Negin Alemazkoor  
 
-**M.Sc., Civil & Environmental Engineering** — Sharif University of Technology  
+**M.Sc., Civil Engineering–Structure** — Sharif University of Technology (September 2018–March 2021)  
 
-**B.Sc., Civil Engineering** — Isfahan University of Technology  
+**B.Sc., Civil Engineering** — Isfahan University of Technology (September 2014–July 2018)  
 
 ---
 
 ## Research & Professional Experience
 
-**Pacific Gas and Electric Company (PG&E)** — Research Collaborator  
+**Pacific Gas and Electric Company (PG&E)** — Research Collaborator (academic collaboration, Summer 2025–present)  
 Temporal graph neural networks for structure-level failure localization and cause prediction in transmission systems.
 
-**Maryland Department of Transportation (MDOT SHA)** — Research Intern  
+**Antora Energy** — Energy Systems Intern (Summer 2026)  
+Developed power-supply decision-support tools, utility-tariff data workflows, and geospatial analyses for energy procurement and Power-to-Heat opportunities.
+
+**Maryland Department of Transportation (MDOT SHA)** — Transportation Intern (Summer 2025)  
 Statewide GIS-based risk prioritization and multi-criteria optimization framework for stormwater infrastructure under climate stressors.
 
 **University of Virginia — Computational Analytics for Smart Systems Lab**  
-Research Assistant  
+Research Assistant (June 2022–present)  
 
 Selected work includes:
 
@@ -44,6 +47,7 @@ Selected work includes:
 - Multi-fidelity GNN surrogates for probabilistic power flow and chance-constrained OPF  
 - Capacity expansion modeling of data center growth and building electrification  
 - Large-ensemble uncertainty quantification for decarbonization planning  
+- Computational optimization for flood-resilient power systems, contributing to NOAA-supported coastal-resilience research  
 
 (Technical details available in Projects and Publications pages.)
 
@@ -51,8 +55,12 @@ Selected work includes:
 
 ## Selected Publications
 
+**Khayambashi, K.**, Hasnat, M. A., & Alemazkoor, N. (2026).  
+A graph neural network-based multi-agent reinforcement learning model for efficient power distribution system recovery after hurricanes.  
+*Reliability Engineering & System Safety*, 276, 112913.
+
 **Khayambashi, K.**, Clarens, A. F., Shobe, W. M., & Alemazkoor, N. (2025).  
-Identifying key uncertainties in energy transitions: A Puerto Rico case study.  
+Identifying key uncertainties in energy transitions with a Puerto Rico case study.  
 *Nature Communications*, 16(1), 9064.
 
 **Khayambashi, K.**, Hasnat, M. A., & Alemazkoor, N. (2024).  
@@ -60,7 +68,7 @@ Hybrid chance-constrained optimal power flow under load and renewable generation
 *Journal of Machine Learning for Modeling and Computing*, 5(4).
 
 Taghizadeh, M., **Khayambashi, K.**, Hasnat, M. A., & Alemazkoor, N. (2024).  
-Multi-fidelity graph neural networks for efficient power flow analysis.  
+Multi-fidelity graph neural networks for efficient power flow analysis under high-dimensional demand and renewable generation uncertainty.  
 *Electric Power Systems Research*, 237, 111014.
 
 **Khayambashi, K.**, & Alemazkoor, N. (2024).  
@@ -83,7 +91,7 @@ Full publication list available on the Publications page.
 
 ## Awards
 
-Science Synthesis Prize, U.S. DOE & NREL ($10,000)  
+Science Synthesis Prize, U.S. DOE & NREL (2025; winning team awarded $10,000)  
 SEAS Endowed Graduate Fellowship, University of Virginia  
 Environmental Futures Fellowship, University of Virginia  
 
@@ -99,4 +107,4 @@ Fundamentals of GIS – UC Davis
 
 ## Full CV (PDF)
 
-[Download Full CV](/files/Kamiar_Khayambashi_3P_CV_Mar_26.pdf)
+[Download Full CV](/files/Kamiar_Khayambashi_CV.pdf)

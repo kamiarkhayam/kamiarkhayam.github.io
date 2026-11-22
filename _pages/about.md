@@ -26,7 +26,7 @@ My work spans power grid reliability, infrastructure resilience under extreme ev
 ## Selected Contributions
 
 - Developed multi-fidelity GNN frameworks for probabilistic power flow and hybrid chance-constrained optimal power flow under renewable uncertainty.  
-- Designed GNN-based multi-agent reinforcement learning models for power distribution restoration after hurricanes (under review, Reliability Engineering & System Safety).  
+- Designed GNN-based multi-agent reinforcement learning models for power distribution restoration after hurricanes, published in *Reliability Engineering & System Safety* (2026).  
 - Led uncertainty quantification studies on energy transitions, including a Puerto Rico case study published in *Nature Communications*.  
 - Quantified interactions between data center load growth and electrification pathways using large-scale capacity expansion modeling.  
 - Built temporal GNN models for failure and cause prediction in power grids in collaboration with industry partners.  
@@ -35,10 +35,10 @@ My work spans power grid reliability, infrastructure resilience under extreme ev
 
 ## Education
 
-**Ph.D., University of Virginia (2022–2026 expected)**  
+**Ph.D. in Civil and Environmental Engineering, University of Virginia (2022–May 2027 anticipated)**  
 Focus: Uncertainty-aware power system operation and planning with machine-learning surrogates  
 
-**M.Sc., Sharif University of Technology**  
+**M.Sc. in Civil Engineering–Structure, Sharif University of Technology (2021)**  
 Probabilistic modeling of water infrastructure and resilience  
 
 ---

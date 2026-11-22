@@ -89,6 +89,6 @@ This project demonstrates how reinforcement learning and graph-based modeling ca
 
 ## Related Publication
 
-Khayambashi, K., Hasnat, M. A., & Alemazkoor, N.  
+Khayambashi, K., Hasnat, M. A., & Alemazkoor, N. (2026).  
 *A Graph Neural Network–based Multi-agent Reinforcement Learning Model for Efficient Power Distribution System Recovery After Hurricanes.*  
-Under review at **Reliability Engineering & System Safety**.
+Published in **Reliability Engineering & System Safety**, 276, 112913. [Article](https://doi.org/10.1016/j.ress.2026.112913).

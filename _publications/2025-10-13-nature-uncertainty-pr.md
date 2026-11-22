@@ -1,5 +1,5 @@
 ---
-title: "Identifying Key Uncertainties in Energy Transitions: A Puerto Rico Case Study"
+title: "Identifying key uncertainties in energy transitions with a Puerto Rico case study"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-nature-uncertainty
@@ -7,7 +7,7 @@ excerpt: "Probabilistic framework identifying dominant drivers of long-term deca
 date: 2025-01-01
 venue: "Nature Communications"
 paperurl: "https://www.nature.com/articles/s41467-025-64143-1"
-citation: "Khayambashi, K., Clarens, A. F., Shobe, W. M., & Alemazkoor, N. (2025). Identifying key uncertainties in energy transitions: A Puerto Rico case study. <i>Nature Communications</i>, 16(1), 9064."
+citation: "Khayambashi, K., Clarens, A. F., Shobe, W. M., & Alemazkoor, N. (2025). Identifying key uncertainties in energy transitions with a Puerto Rico case study. <i>Nature Communications</i>, 16(1), 9064."
 ---
 Published in *Nature Communications* (2025).
 

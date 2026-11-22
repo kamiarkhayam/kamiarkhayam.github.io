@@ -1,7 +1,7 @@
 ---
 title: "Graph Neural Networks for Precision-Guaranteed Compression of Large-Scale Data"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2024-ieee-bigdata-gnn-compression
 excerpt: "GNN-based prediction framework enabling direct control over decompression error for large-scale spatio-temporal data."
 date: 2024-12-01

@@ -80,6 +80,6 @@ The study informs future research on climate-aware capacity expansion modeling, 
 
 ## Related Publication
 
-Khayambashi, K., Anand, H., Asadi, S., & Alemazkoor, N. (2024).  
+Khayambashi, K., Anand, H., Asadi, S., & Alemazkoor, N. (2026, in press).  
 *Long-term power grid planning: Navigating climate change and energy transition challenges.*  
 In *Advancing the Resilience of the Power Grid under a Changing Climate*. IEEE & Wiley.

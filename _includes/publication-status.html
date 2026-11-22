@@ -1,0 +1,9 @@
+{% if include.item.status == 'preprint' %}
+  <p>Preprint on <i>{{ include.item.venue }}</i>, {{ include.item.date | date: "%Y" }}.</p>
+{% elsif include.item.status == 'under_review' %}
+  <p>Under review at <i>{{ include.item.venue }}</i> (manuscript, {{ include.item.date | date: "%Y" }}).</p>
+{% elsif include.item.status == 'in_press' %}
+  <p>In press in <i>{{ include.item.venue }}</i>.</p>
+{% else %}
+  <p>Published in <i>{{ include.item.venue }}</i>, {{ include.item.date | default: "1900-01-01" | date: "%Y" }}.</p>
+{% endif %}

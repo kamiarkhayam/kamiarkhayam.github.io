@@ -1,12 +1,13 @@
 ---
-title: "Interactions Between Data Center Load Growth, Residential Heat Pump Adoption, and Energy Affordability"
+title: "Interactions Between Data Center Load Growth, Building Heat Pump Adoption, and Energy Affordability"
 collection: publications
-category: manuscripts
+category: under_review
+status: under_review
 permalink: /publication/2025-data-centers-heat-pumps-affordability
 date: 2025-01-01
-venue: "Joule (Under Review)"
+venue: "Energy and Climate Change"
 paperurl: "https://github.com/kamiarkhayam/Data-Centers-HP-Affordability"
-citation: "Khayambashi, K., Kaufman, M., DeCarolis, J., Shobe, W., Wade, C., McCollum, D., Alemazkoor, N., & Clarens, A. F. (2025). Interactions Between Data Center Load Growth, Residential Heat Pump Adoption, and Energy Affordability. Joule (Under Review)."
+citation: "Khayambashi, K., Kaufman, M., DeCarolis, J., Shobe, W., Wade, C., McCollum, D., Alemazkoor, N., & Clarens, A. F. (2025). Interactions Between Data Center Load Growth, Building Heat Pump Adoption, and Energy Affordability. Energy and Climate Change (under review)."
 ---
 
 This study quantifies the system-level interaction between accelerating data center (IDC) electricity demand and residential heat pump (HP) adoption in Virginia’s PJM Dominion (PJMD) region through 2040.
