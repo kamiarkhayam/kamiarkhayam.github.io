@@ -36,9 +36,10 @@ My work spans power grid reliability, infrastructure resilience under extreme ev
 
 ## Current Research
 
-- **[Wildfire modeling](/project/wildfire-physical-surrogate-modeling):** Connecting physical simulations with multi-fidelity surrogate models for wildfire hazard assessment.
-- **[Flood-resilient power systems](/project/flood-resilient-power-systems):** Developing computational optimization methods for flood-risk mitigation through a NOAA-supported coastal-resilience project.
+- **[Power-grid reliability and fault prediction](/project/pge-temporal-gnn-failure-prediction):** Developing computational models for failure localization and cause prediction in collaboration with PG&E.
 - **[Data centers and grid resilience](/project/data-center-restoration-anchors):** Evaluating data-center demand and emergency support, community reliability, and post-disaster recovery.
+- **[Flood-resilient power systems](/project/flood-resilient-power-systems):** Developing computational optimization methods for flood-risk mitigation through a NOAA-supported coastal-resilience project.
+- **[Wildfire modeling](/project/wildfire-physical-surrogate-modeling):** Connecting physical simulations with multi-fidelity surrogate models for wildfire hazard assessment.
 
 ---
 
