@@ -44,11 +44,11 @@ My work spans power grid reliability, infrastructure resilience under extreme ev
 
 ## Selected Awards and Honors
 
-- **CEE Outstanding Graduate Teaching Award**, University of Virginia (2025–2026).
-- **Link Lab Distinguished Research Award**, University of Virginia (2026).
 - **American-Made Science Synthesis Prize**, U.S. Department of Energy and NREL (2025; winning team awarded $10,000).
 - **Copenhaver Charitable Trust Bicentennial Fellowship**, UVA SEAS Endowed Graduate Fellowship (2025–2026).
 - **Environmental Futures Fellowship**, UVA Environmental Institute (2025).
+- **Link Lab Distinguished Research Award**, University of Virginia (2026).
+- **CEE Outstanding Graduate Teaching Award**, University of Virginia (2025–2026).
 
 ---
 

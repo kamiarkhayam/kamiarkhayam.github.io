@@ -97,11 +97,11 @@ Full publication list, including preprints and work under review, is available o
 
 ## Awards and Honors
 
-- **CEE Outstanding Graduate Teaching Award**, Department of Civil and Environmental Engineering, University of Virginia (2025–2026).
-- **Link Lab Distinguished Research Award**, University of Virginia (2026).
 - **American-Made Science Synthesis Prize**, U.S. Department of Energy and National Renewable Energy Laboratory (2025). Winning team awarded $10,000 for a research paper on barriers and opportunities in renewable-energy integration.
 - **SEAS Endowed Graduate Fellowship — Copenhaver Charitable Trust Bicentennial Fellowship**, University of Virginia (2025–2026).
 - **Environmental Futures Fellowship**, University of Virginia Environmental Institute (2025).
+- **Link Lab Distinguished Research Award**, University of Virginia (2026).
+- **CEE Outstanding Graduate Teaching Award**, Department of Civil and Environmental Engineering, University of Virginia (2025–2026).
 - **Honorary scholarship and direct admission**, Civil Engineering M.Sc. program, Sharif University of Technology (2018; non-monetary recognition).
 - **Magna Cum Laude**, Civil Engineering–Structure M.Sc., Sharif University of Technology (2021; top 15%).
 - **Summa Cum Laude**, Civil Engineering B.Sc., Isfahan University of Technology (2018; top 5%).
