@@ -22,6 +22,7 @@ Email: bmb2tn@virginia.edu
 Advisor: Negin Alemazkoor  
 
 **M.Sc., Civil Engineering–Structure** — Sharif University of Technology (September 2018–March 2021)  
+Focus: Probabilistic Modeling of Water Distribution Infrastructure and Its Inter-dependencies in Community Resilience Analysis  
 
 **B.Sc., Civil Engineering** — Isfahan University of Technology (September 2014–July 2018)  
 
@@ -86,9 +87,9 @@ Full publication list, including preprints and work under review, is available o
 
 ## Technical Skills
 
-**Machine Learning:** Graph Neural Networks, Reinforcement Learning, Surrogate Modeling  
+**Energy & Power Systems:** Power Flow, Optimal Power Flow, Capacity Expansion, Energy System Modeling, Grid Reliability & Resilience  
 **Modeling & Optimization:** Physical Simulation, Multi-fidelity and Surrogate Modeling, Uncertainty Quantification, Monte Carlo Simulation, Chance-Constrained Optimization  
-**Energy Systems:** Power Flow, OPF, Capacity Expansion, Grid Resilience  
+**Machine Learning:** Graph Neural Networks, Reinforcement Learning, Surrogate Modeling  
 **Programming:** Python, C++, SQL, MATLAB, VBA  
 **Tools:** PyTorch, PyTorch Geometric, TensorFlow, ArcGIS, CUDA  
 

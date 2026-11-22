@@ -58,20 +58,20 @@ My work spans power grid reliability, infrastructure resilience under extreme ev
 Focus: Uncertainty-aware power system operation and planning with machine-learning surrogates  
 
 **M.Sc. in Civil Engineering–Structure, Sharif University of Technology (2021)**  
-Probabilistic modeling of water infrastructure and resilience  
+Focus: Probabilistic Modeling of Water Distribution Infrastructure and Its Inter-dependencies in Community Resilience Analysis  
 
 ---
 
 ## Technical Areas
 
-**Machine Learning**  
-Graph Neural Networks, Reinforcement Learning, Deep Learning, Temporal Modeling  
+**Energy & Power Systems**  
+Power System Planning & Operation, Energy System Modeling, Grid Reliability & Resilience, Infrastructure Risk Analysis  
 
 **Modeling & Optimization**  
 Physical Simulation, Surrogate Modeling, Uncertainty Quantification, Multi-fidelity Modeling, Numerical Optimization  
 
-**Energy & Infrastructure Systems**  
-Power System Analysis, Reliability & Risk Analysis, Energy System Modeling, Infrastructure Resilience  
+**Machine Learning**  
+Graph Neural Networks, Reinforcement Learning, Deep Learning, Temporal Modeling  
 
 ---
 
