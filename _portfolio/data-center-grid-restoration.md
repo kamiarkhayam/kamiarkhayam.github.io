@@ -7,6 +7,8 @@ excerpt: "Graph Neural Network–based reinforcement learning framework for inte
 
 ## Overview
 
+**Status:** Ongoing research; manuscript in preparation.
+
 Developed a resilience-oriented restoration framework that treats selected hyperscale data centers as coordinated infrastructure assets rather than passive electricity loads during extreme weather disruptions.
 
 The framework integrates distribution reconfiguration, survivability constraints, and Graph Neural Network–based reinforcement learning to quantify how large controllable loads can accelerate community recovery without compromising internal reliability.
@@ -83,5 +85,7 @@ Framework bridges reinforcement learning, distribution system restoration, and d
 ## Related Publication
 
 Khayambashi, K., & Alemazkoor, N.  
-Leveraging hyperscale data centers to support power system reliability and resilience.  
+Reliability and Resilience Implications of Data-Center Demand and Emergency Support in Distribution Systems.  
 *In preparation.*
+
+[Research code](https://github.com/kamiarkhayam/data-center-reliability-resilience)
