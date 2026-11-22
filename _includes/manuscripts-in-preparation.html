@@ -1,0 +1,5 @@
+<ul>
+  {% for manuscript in site.data.manuscripts %}
+    <li>{{ manuscript.authors | escape }}{% if manuscript.year %} ({{ manuscript.year }}).{% endif %} <em>{{ manuscript.title | escape }}.</em> Manuscript in preparation.</li>
+  {% endfor %}
+</ul>

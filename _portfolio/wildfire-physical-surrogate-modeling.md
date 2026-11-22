@@ -1,23 +1,26 @@
 ---
-title: "Physical and Surrogate Modeling for Wildfire Hazard Assessment"
+title: "Computational Modeling and Prediction of Wildfire Behavior"
 collection: portfolio
 permalink: /project/wildfire-physical-surrogate-modeling
-excerpt: "Connecting physical wildfire simulations with multi-fidelity surrogate models to study hazard patterns, data requirements, and computational trade-offs."
+excerpt: "Combining physical wildfire simulations and machine learning to predict wildfire behavior and assess hazards under varying environmental conditions."
 ---
 
 ## Overview
 
-This research connects physical wildfire simulation with machine-learning surrogates to study hazard behavior under uncertain conditions. The work uses simulation outputs at different spatial resolutions to model fire-arrival patterns and burned areas, examining the trade-offs between predictive accuracy, training-data requirements, and computational cost.
+This research develops computational models that combine physical wildfire simulations and machine learning to predict wildfire behavior and assess hazards under varying environmental conditions. It examines how data-driven models can represent fire spread and support the analysis of hazards affecting communities and infrastructure.
 
-## Current Focus
+## Current Study
 
-- Combining coarse- and fine-resolution wildfire simulations through multi-fidelity surrogate modeling.
-- Representing spatial relationships in terrain and simulated hazard fields using graph-based models.
-- Evaluating predictions on held-out wildfire events within fixed synthetic landscapes.
-- Comparing surrogate models with simulation-based and single-fidelity baselines, considering both accuracy and total computational effort.
+The current manuscript investigates multifidelity graph neural networks for predicting wildfire arrival times and burned extent. It combines coarse- and fine-resolution simulations and examines the relationship between predictive accuracy, simulation-data requirements, and computational effort.
+
+The study design includes synthetic and mapped landscapes and comparisons with single-fidelity models under comparable data-generation budgets. This work is being developed as part of the broader wildfire-modeling research direction.
 
 ## Relevance
 
 The broader aim is to develop computational approaches that can support wildfire hazard assessment and the study of risks to infrastructure systems. This connects physical modeling with data-driven methods for reliability, resilience, and decision-making under uncertainty.
 
-**Status:** Ongoing research, with current evaluation on synthetic landscapes.
+## Manuscript in Preparation
+
+Khayambashi, K., & Alemazkoor, N.  
+*Data-efficient wildfire hazard mapping with multifidelity graph neural networks.*  
+Manuscript in preparation.

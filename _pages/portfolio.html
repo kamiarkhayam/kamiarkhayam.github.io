@@ -7,8 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
+<p>My research develops computational methods for power-grid reliability, operation, resilience, and long-term energy planning under uncertainty. The projects below connect these methods to utility systems, energy transitions, and infrastructure hazards.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% for group in site.data.project_groups %}
+  <h2>{{ group.title }}</h2>
+  {% for project_path in group.projects %}
+    {% assign matches = site.portfolio | where: "permalink", project_path %}
+    {% for post in matches %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
 {% endfor %}
 

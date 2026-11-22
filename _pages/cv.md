@@ -9,6 +9,8 @@ author_profile: true
 Ph.D. Candidate in Civil and Environmental Engineering  
 University of Virginia  
 
+Research focus: Computational and data-driven methods for energy-system planning, operation, reliability, and resilience under uncertainty.
+
 Charlottesville, VA  
 Email: bmb2tn@virginia.edu  
 [LinkedIn](https://linkedin.com/in/kamiarkhayambashi)  
@@ -49,7 +51,7 @@ Selected work includes:
 - Capacity expansion modeling of data center growth and building electrification  
 - Large-ensemble uncertainty quantification for decarbonization planning  
 - Computational optimization for flood-resilient power systems, contributing to NOAA-supported coastal-resilience research  
-- Physical wildfire simulation and multi-fidelity surrogate modeling for hazard assessment  
+- Computational models combining physical wildfire simulations and machine learning to predict wildfire behavior and assess hazards under varying environmental conditions  
 
 (Technical details available on the [Projects](/portfolio/) and [Publications](/publications/) pages.)
 
@@ -81,7 +83,13 @@ Multi-fidelity graph neural networks for efficient power flow analysis under hig
 Graph neural networks for precision-guaranteed compression of large-scale data.  
 *Proceedings of the IEEE International Conference on Big Data.*
 
-Full publication list, including preprints and work under review, is available on the [Publications page](/publications/).
+The full publication list, including preprints and work under review, is available on the [Publications page](/publications/).
+
+See also [selected conference and research presentations](/talks/).
+
+## Manuscripts in Preparation
+
+{% include manuscripts-in-preparation.html %}
 
 ---
 
@@ -140,6 +148,14 @@ Reviewing service includes:
 - Research Software Engineering Conference (RSEcon)
 
 Professional memberships include ASCE, the Engineering Mechanics Institute, and the Institute of Transportation Engineers.
+
+---
+
+## Proposal Development
+
+- **FIRE-WUI: Closing the Loop: from Grid-Induced Wildfire Prevention to Post-Wildfire Grid Restoration** — Assisted Professor Negin Alemazkoor with proposal preparation and writing.
+- **NSF AIDatasets Planning: An AI-Ready Dataset Linking Recurrent Flooding to Impacts and Investments in Rural Appalachia** — Contributed to editing and refinement of research questions.
+- **ReDDDoT Phase 2: Bridging AI Advances in Cancer Research with Clinical Decisions: A Focus on End-of-Life** — Internal proposal review; submitted to NSF's Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH) program.
 
 ---
 

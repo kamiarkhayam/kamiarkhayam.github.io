@@ -7,28 +7,30 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate at the University of Virginia working at the intersection of physical modeling, machine learning, probabilistic analysis, and large-scale networked systems. My research combines computational and data-driven methods to support energy-system planning, operation, reliability, and resilience under uncertainty.
+I develop computational and data-driven methods to improve the **planning, operation, reliability, and resilience of electric power and energy systems under uncertainty**. I am a PhD candidate in Civil and Environmental Engineering at the University of Virginia.
 
-My work spans power grid reliability, infrastructure resilience under extreme events, and long-term energy system planning. I build scalable learning frameworks for high-dimensional physical systems, with applications in power system operation, post-disaster recovery, and decarbonization planning.
+My work combines physical modeling, machine learning, optimization, and probabilistic analysis to address power-grid failures, post-disaster recovery, changing electricity demand, and long-term energy transitions. These projects connect advances in computational modeling with practical decisions about critical energy infrastructure.
+
+Through my academic collaboration with **PG&E** and my energy-systems internship at **Antora Energy**, I have worked on utility failure prediction and decision-support tools for power supply and industrial electrification. My broader foundation is in infrastructure risk and resilience, including probabilistic modeling of water-distribution systems during my master's research.
 
 ---
 
 ## Research Focus
 
-- Machine learning and data-driven modeling for complex energy and infrastructure systems  
-- Computational methods for sequential decision-making under uncertainty  
-- Reliability, resilience, and risk analysis of critical infrastructure  
-- Physical and surrogate modeling of wildfire and other infrastructure hazards  
-- Efficient computational modeling and uncertainty quantification  
 - Energy system modeling and long-term planning  
+- Reliability, resilience, and risk analysis of critical infrastructure  
+- Computational methods for sequential decision-making under uncertainty  
+- Machine learning and data-driven modeling for complex energy and infrastructure systems  
+- Efficient computational modeling and uncertainty quantification  
+- Physical and surrogate modeling of wildfire and other infrastructure hazards  
 
 ---
 
 ## Selected Contributions
 
-- Developed multi-fidelity GNN frameworks for probabilistic power flow and hybrid chance-constrained optimal power flow under renewable uncertainty.  
-- Designed GNN-based multi-agent reinforcement learning models for power distribution restoration after hurricanes, published in *Reliability Engineering & System Safety* (2026).  
 - Led uncertainty quantification studies on energy transitions, including a Puerto Rico case study published in *Nature Communications*.  
+- Designed GNN-based multi-agent reinforcement learning models for power distribution restoration after hurricanes, published in *Reliability Engineering & System Safety* (2026).  
+- Developed multi-fidelity GNN frameworks for probabilistic power flow and hybrid chance-constrained optimal power flow under renewable uncertainty.  
 - Quantified interactions between data center load growth and electrification pathways using large-scale capacity expansion modeling.  
 - Built temporal GNN models for failure and cause prediction in power grids in collaboration with industry partners.  
 
@@ -39,7 +41,8 @@ My work spans power grid reliability, infrastructure resilience under extreme ev
 - **[Power-grid reliability and fault prediction](/project/pge-temporal-gnn-failure-prediction):** Developing computational models for failure localization and cause prediction in collaboration with PG&E.
 - **[Data centers and grid resilience](/project/data-center-restoration-anchors):** Evaluating data-center demand and emergency support, community reliability, and post-disaster recovery.
 - **[Flood-resilient power systems](/project/flood-resilient-power-systems):** Developing computational optimization methods for flood-risk mitigation through a NOAA-supported coastal-resilience project.
-- **[Wildfire modeling](/project/wildfire-physical-surrogate-modeling):** Connecting physical simulations with multi-fidelity surrogate models for wildfire hazard assessment.
+- **[Energy transitions and long-term planning](/project/gcam-cdr-power-uq):** Studying Virginia's decarbonization pathways and the interaction between carbon removal, electricity supply, and uncertainty.
+- **[Wildfire modeling](/project/wildfire-physical-surrogate-modeling):** Combining physical simulations and machine learning to predict wildfire behavior and assess hazards under varying environmental conditions.
 
 ---
 

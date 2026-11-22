@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Kamiar Khayambashi"
 title_separator          : "-"
 name                     : &name "Kamiar Khayambashi"
-description              : &description "PhD researcher in machine learning and probabilistic modeling for resilient energy and infrastructure systems."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Computational and data-driven research for energy-system planning, power-grid operation, reliability, and resilience under uncertainty."
 url: "https://kamiarkhayam.github.io"
 baseurl: ""
 repository: "kamiarkhayam/kamiarkhayam.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Kamiar Khayambashi"
   pronouns         : # example: "she/her"  
-  bio              : "PhD researcher applying machine learning and quantitative modeling to reliability, risk analysis, and critical infrastructure systems."
+  bio              : "PhD researcher developing computational methods for energy-system planning, power-grid reliability, and infrastructure resilience."
   location         : "Charlottesville, VA"
   employer         : "University of Virginia"
   uri              : # URL
@@ -171,6 +171,19 @@ include:
   - _pages
   - files
 exclude:
+  - _posts
+  - _talks
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/year-archive.html
+  - talkmap
+  - talkmap.ipynb
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

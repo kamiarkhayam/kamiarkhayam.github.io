@@ -1,0 +1,21 @@
+- title: "Power-System Reliability, Operation, and Resilience"
+  projects:
+    - /project/pge-temporal-gnn-failure-prediction
+    - /project/magnn-a2c-hurricane-restoration
+    - /project/data-center-restoration-anchors
+    - /project/flood-resilient-power-systems
+    - /project/mf-gnn-powerflow
+    - /project/hcc-opf-emf-gnn
+- title: "Energy Planning and Transitions"
+  projects:
+    - /project/energy-transition-uncertainty
+    - /project/data-centers-heat-pumps-affordability
+    - /project/gcam-cdr-power-uq
+    - /project/climate-change-grid-planning
+- title: "Related Infrastructure and Hazard Modeling"
+  projects:
+    - /project/gnn-precision-compression
+    - /project/gnn-civil-infrastructure-review
+    - /project/mdot-stormwater-prioritization
+    - /project/ml-balanced-mix-design
+    - /project/wildfire-physical-surrogate-modeling
