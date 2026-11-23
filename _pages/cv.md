@@ -153,9 +153,9 @@ Professional memberships include ASCE, the Engineering Mechanics Institute, and 
 
 ## Proposal Development
 
-- **FIRE-WUI: Closing the Loop: from Grid-Induced Wildfire Prevention to Post-Wildfire Grid Restoration** — Assisted Professor Negin Alemazkoor with proposal preparation and writing.
-- **NSF AIDatasets Planning: An AI-Ready Dataset Linking Recurrent Flooding to Impacts and Investments in Rural Appalachia** — Contributed to editing and refinement of research questions.
-- **ReDDDoT Phase 2: Bridging AI Advances in Cancer Research with Clinical Decisions: A Focus on End-of-Life** — Internal proposal review; submitted to NSF's Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH) program.
+- **FIRE-WUI: Closing the Loop: from Grid-Induced Wildfire Prevention to Post-Wildfire Grid Restoration** — Assisted Negin Alemazkoor with preparation and writing. Submitted to: NSF FIRE (FIRE-WUI).
+- **NSF AIDatasets Planning: An AI-Ready Dataset Linking Recurrent Flooding to Impacts and Investments in Rural Appalachia** — Assisted Negin Alemazkoor with preparation and writing. Submitted to: NSF AIDatasets (Planning Grants).
+- **ReDDDoT Phase 2: Bridging AI Advances in Cancer Research with Clinical Decisions: A Focus on End-of-Life** — Assisted Negin Alemazkoor with internal proposal review. Submitted to: NSF ReDDDoT (Phase 2).
 
 ---
 
